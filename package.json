@@ -1,0 +1,33 @@
+{
+  "name": "my_portfolio",
+  "version": "0.5.0",
+  "description": "My first portfolio page.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjorntirsen/bjorntirsen.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "bootstrap",
+    "spa",
+    "WCAG"
+  ],
+  "author": "bjorntirsen@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjorntirsen/bjorntirsen.github.io/issues"
+  },
+  "homepage": "https://github.com/bjorntirsen/bjorntirsen.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha2"
+  }
+}
