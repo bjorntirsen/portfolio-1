@@ -1,1 +1,25 @@
+@import 'variables';
+@import 'utilities';
+
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* body {
+    background-image: url("../images/autumn_road.jpg");
+    background-color: aqua; 
+} */
+
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("../images/autumn_road.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
