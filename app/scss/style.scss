@@ -3,23 +3,41 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-/* body {
-    background-image: url("../images/autumn_road.jpg");
-    background-color: aqua; 
-} */
-
 body, html {
-    height: 100%;
-  }
-  .bg {
-    /* The image used */
-    background-image: url("../images/autumn_road_l.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/autumn_road_l.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: black;
+}
+
+.fade-in {
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.slow-fade {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

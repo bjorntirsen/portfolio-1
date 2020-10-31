@@ -7171,10 +7171,6 @@ progress {
   .d-print-none {
     display: none !important; } }
 
-/* body {
-    background-image: url("../images/autumn_road.jpg");
-    background-color: aqua; 
-} */
 body, html {
   height: 100%; }
 
@@ -7187,3 +7183,24 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+body {
+  background-color: black; }
+
+.fade-in {
+  animation: fadein 1s; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.slow-fade {
+  animation: fadein 2s; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
