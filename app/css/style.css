@@ -7171,15 +7171,28 @@ progress {
   .d-print-none {
     display: none !important; } }
 
-body, html {
+/* Wrapper Styling */
+.wrapper {
+  position: relative; }
+
+.wrapper-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0; }
+
+.wrapper-content {
+  position: relative;
+  z-index: 1; }
+
+/* Background Image Styling */
+body,
+html {
   height: 100%; }
 
 .bg {
-  /* The image used */
   background-image: url("../images/autumn_road_l.jpg");
-  /* Full height */
   height: 100%;
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -7187,6 +7200,7 @@ body, html {
 body {
   background-color: black; }
 
+/* Different Animations */
 .fade-in {
   animation: fadein 1s; }
 
@@ -7197,10 +7211,20 @@ body {
     opacity: 1; } }
 
 .slow-fade {
-  animation: fadein 2s; }
+  animation: slowfade 2s; }
 
-@keyframes fadein {
+@keyframes slowfade {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
+
+.zoom {
+  transform: scale(1.1);
+  animation: zoom 2s; }
+
+@keyframes zoom {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.1); } }

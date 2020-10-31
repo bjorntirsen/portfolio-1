@@ -1,43 +1,79 @@
 @import 'variables';
 @import 'utilities';
-
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-body, html {
-  height: 100%;
+/* Wrapper Styling */
+.wrapper {
+	position: relative;
+}
+
+.wrapper-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.wrapper-content {
+	position: relative;
+	z-index: 1;
+}
+
+/* Background Image Styling */
+body,
+html {
+    height: 100%;
 }
 
 .bg {
-  /* The image used */
-  background-image: url("../images/autumn_road_l.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../images/autumn_road_l.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
-  background-color: black;
+    background-color: black;
 }
 
+/* Different Animations */
 .fade-in {
-  animation: fadein 1s;
+    animation: fadein 1s;
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .slow-fade {
-  animation: fadein 2s;
+    animation: slowfade 2s;
 }
 
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+@keyframes slowfade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.zoom {
+	transform: scale(1.1);
+    animation: zoom 2s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
