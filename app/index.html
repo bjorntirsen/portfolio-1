@@ -12,13 +12,13 @@
 <body>
 
     <!-- Wrapper -->
-    <div class="wrapper d-flex flex-column align-items-center justify-content-evenly container bg fade-in">
+    <div class="wrapper d-flex flex-column align-items-center justify-content-evenly bg fade-in">
 
 		<div class="wrapper-background bg zoom"></div>
 		
         <div class="wrapper-content">
             <!-- Nav Bar -->
-            <nav class="d-none navbar navbar-expand-lg navbar-light bg-light">
+            <!-- <nav class="d-none navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,14 +55,14 @@
                         </form>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
 
             <!-- Main -->
             <main class="align-middle container bg-light slow-fade">
-				<h1 class="pt-5 text-white text-uppercase font-weight-bold text-center display-1">Developing the Developer</h1>
-				<h2 class="text-white text-uppercase font-weight-bold text-center">-</h2>
-				<h2 class="pb-5 text-white text-uppercase font-weight-bold text-center">the Björn Tirsén Portfolio</h2>
-                <p class="py-5 text-white text-center font-monospace font-italic">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+				<h1 class="pt-5 text-dark text-uppercase font-weight-bold text-center display-1">Developing the Developer</h1>
+				<h2 class="text-dark text-uppercase font-weight-bold text-center">-</h2>
+				<h2 class="pb-5 text-dark text-uppercase font-weight-bold text-center text-nowrap">the Björn Tirsén Portfolio</h2>
+                <p class="py-5 text-dark text-center font-monospace font-italic">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
             </main>
 
             <!-- Buttons -->
@@ -76,22 +76,37 @@
 				<!-- Featured Post -->
 				<div class="card">
 					<header class="card-header">
-						<span class="text-center">April 25, 2017</span>
-						<h2 class="card-title">Developing the Developer</h2><h3 class="card-subtitle text-muted">
+						<div class="text-center text-muted">November 1, 2020</div>
+						<h2 class="card-title text-uppercase font-weight-bold text-center">Developing the Developer</h2><h3 class="card-subtitle text-muted text-uppercase font-weight-bold text-center">
 						the Björn Tirsén Portfolio</h3>
 					</header>
-					<article class="card-body">
+					<article class="card-body text-center font-monospace font-italic">
 						<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
 						facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
 						amet nullam sed etiam veroeros.</p>
 					
-						<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-						<ul class="actions special">
-							<li><a href="#" class="button large">Full Story</a></li>
-						</ul>
+						<img src="images/autumn-l.jpg" class="card-img-top" alt="autumn landscape">
+
+						<button type="button" class="mt-3 btn btn-outline-primary btn-lg">Techniques Used</button>
 					</article>
 				</div>
-				
+				<!-- Additional Posts -->
+				<div class="my-1 card">
+					<header class="card-header">
+						<div class="text-center text-muted">October 30, 2020</div>
+						<h2 class="card-title text-uppercase font-weight-bold text-center">ACME Events</h2><h3 class="card-subtitle text-muted text-uppercase font-weight-bold text-center">
+						site for entertainment events</h3>
+					</header>
+					<article class="card-body text-center font-monospace font-italic">
+						<p>An event page where you can CRUD events to Local Storage<br />
+						facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+						amet nullam sed etiam veroeros.</p>
+					
+						<img src="images/autumn-l.jpg" class="card-img-top" alt="autumn landscape">
+
+						<button type="button" class="mt-3 btn btn-outline-primary btn-lg">Techniques Used</button>
+					</article>
+				</div>
 			</section>
         </div>
 
