@@ -4,7 +4,9 @@
 
 /* Wrapper Styling */
 .wrapper {
-	position: relative;
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .wrapper-background {
@@ -16,7 +18,8 @@
 .wrapper-content {
 	position: relative;
 	z-index: 1;
-	
+	height: 100%;
+    width: 100%;
 }
 
 /* Background Image Styling */
@@ -28,7 +31,7 @@ html {
 
 .bg {
     background-image: url("../images/autumn_road_l.jpg");
-    height: 100vh;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
 	background-size: cover;
@@ -40,6 +43,21 @@ body {
 }
 
 /* Different Animations */
+
+.zoom {
+	transform: scale(1.1);
+    animation: zoom 2s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
 .fade-in {
     animation: fadein 1s;
 }
@@ -76,19 +94,5 @@ body {
     }
     to {
         opacity: 0.85;
-    }
-}
-
-.zoom {
-	transform: scale(1.1);
-    animation: zoom 2s;
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
     }
 }

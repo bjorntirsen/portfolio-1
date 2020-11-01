@@ -13,141 +13,27 @@
 
     <!-- Wrapper -->
     <div class="wrapper fade-in">
-
+		<!-- Background Pseudo Element -->
 		<div class="wrapper-background bg zoom"></div>
-		
-        <div class="wrapper-content h-100 row align-items-center">
-			<!-- Landing -->
-            <div class="col align-self-center" id="landing_page">
-				 <main class="container bg-light slow-fade85 opacity-85">
-					<h1 class="pt-5 text-dark text-uppercase font-weight-bold text-center display-2">Developing the Developer</h1>
-					<h2 class="text-dark text-uppercase font-weight-bold text-center">-</h2>
-					<h2 class="pb-5 text-dark text-uppercase font-weight-bold text-center text-nowrap">the Björn Tirsén Portfolio</h2>
-					<p class="py-5 text-dark text-center font-monospace font-italic">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
-				</main>
-	
-				<!-- Buttons -->
-				<section class="d-flex my-3 justify-content-center container slow-fade">
-					<button class="btn btn-primary mx-2" id="enter_button">Enter Portfolio</button>
-					<button class="btn btn-secondary mx-2">Site options</button>
-				</section>
+		<!-- Landing Page Content -->
+        <div class="wrapper-content container">
+			<div class="row h-100">
+				<div class="col my-auto">
+					<main class="container bg-light slow-fade85 opacity-85">
+					   <h1 class="text-dark text-uppercase font-weight-bold text-center">Developing the Developer</h1>
+					   <h2 class="text-dark text-uppercase font-weight-bold text-center">-</h2>
+					   <h6 class="text-dark text-uppercase font-weight-bold text-center text-nowrap">the Björn Tirsén Portfolio</h6>
+					   <p class="p-4 text-dark text-center font-monospace font-italic">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+				   </main>
+	   
+				   <!-- Buttons -->
+				   <section class="d-flex my-3 justify-content-center container slow-fade">
+					   <a class="btn btn-primary mx-2" href="portfolio.html" role="button">Enter</a>
+					   <button class="btn btn-secondary mx-2">Site options</button>
+				   </section>
+			   </div>
 			</div>
-           
-
-			<!-- Nav Bar -->
-            <nav class="d-none page2 my-3 navbar navbar-expand-lg navbar-light bg-light" id="nav_bar">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						  </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-								  Dropdown
-								</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-			
-			<!-- Portfolio -->
-			<section class="d-none page2 container" id="portfolio">
-				<!-- Featured Post -->
-				<div class="card">
-					<header class="card-header">
-						<div class="text-center text-muted">November 1, 2020</div>
-						<h2 class="card-title text-uppercase font-weight-bold text-center">Developing the Developer</h2><h3 class="card-subtitle text-muted text-uppercase font-weight-bold text-center">
-						the Björn Tirsén Portfolio</h3>
-					</header>
-					<article class="card-body text-center font-monospace font-italic">
-						<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-						facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-						amet nullam sed etiam veroeros.</p>
-					
-						<img src="images/autumn-l.jpg" class="card-img-top" alt="autumn landscape">
-
-						<button type="button" class="mt-3 btn btn-outline-primary btn-lg">Techniques Used</button>
-					</article>
-				</div>
-				<!-- Additional Posts -->
-				<div class="my-1 card">
-					<header class="card-header">
-						<div class="text-center text-muted">October 30, 2020</div>
-						<h2 class="card-title text-uppercase font-weight-bold text-center">ACME Events</h2><h3 class="card-subtitle text-muted text-uppercase font-weight-bold text-center">
-						site for entertainment events</h3>
-					</header>
-					<article class="card-body text-center font-monospace font-italic">
-						<p>An event page where you can CRUD events to Local Storage<br />
-						facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-						amet nullam sed etiam veroeros.</p>
-					
-						<img src="images/autumn-l.jpg" class="card-img-top" alt="autumn landscape">
-
-						<button type="button" class="mt-3 btn btn-outline-primary">Techniques Used</button>
-						<button type="button" class="mt-3 btn btn-outline-secondary">Visit Site</button>
-					</article>
-				</div>
-				<div class="my-1 card">
-					<header class="card-header">
-						<div class="text-center text-muted">October 30, 2020</div>
-						<h2 class="card-title text-uppercase font-weight-bold text-center">ACME Events</h2><h3 class="card-subtitle text-muted text-uppercase font-weight-bold text-center">
-						site for entertainment events</h3>
-					</header>
-					<article class="card-body text-center font-monospace font-italic">
-						<p>An event page where you can CRUD events to Local Storage<br />
-						facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-						amet nullam sed etiam veroeros.</p>
-					
-						<img src="images/autumn-l.jpg" class="card-img-top" alt="autumn landscape">
-
-						<button type="button" class="mt-3 btn btn-outline-primary">Techniques Used</button>
-						<button type="button" class="mt-3 btn btn-outline-secondary">Visit Site</button>
-					</article>
-				</div>
-				<div class="my-1 card">
-					<header class="card-header">
-						<div class="text-center text-muted">October 30, 2020</div>
-						<h2 class="card-title text-uppercase font-weight-bold text-center">ACME Events</h2><h3 class="card-subtitle text-muted text-uppercase font-weight-bold text-center">
-						site for entertainment events</h3>
-					</header>
-					<article class="card-body text-center font-monospace font-italic">
-						<p>An event page where you can CRUD events to Local Storage<br />
-						facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-						amet nullam sed etiam veroeros.</p>
-					
-						<img src="images/autumn-l.jpg" class="card-img-top" alt="autumn landscape">
-
-						<button type="button" class="mt-3 btn btn-outline-primary">Techniques Used</button>
-						<button type="button" class="mt-3 btn btn-outline-secondary">Visit Site</button>
-					</article>
-				</div>
-			</section>
         </div>
-
     </div>
 
     <!-- <div class="bg"></div> -->
