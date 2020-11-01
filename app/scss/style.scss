@@ -7,6 +7,7 @@
     position: relative;
     height: 100%;
     width: 100%;
+    overflow-y: hidden;
 }
 
 .wrapper-background {
@@ -20,6 +21,14 @@
 	z-index: 1;
 	height: 100%;
     width: 100%;
+}
+
+#landing_container {
+    background: rgba(215, 191, 142, 0.65) !important;
+}
+
+#profile {
+    opacity: 1!important;
 }
 
 /* Background Image Styling */
@@ -85,10 +94,10 @@ body {
 }
 
 .slow-fade85 {
-    animation: slowfade 2s;
+    animation: slowfade85 2s;
 }
 
-@keyframes slowfade {
+@keyframes slowfade85 {
     from {
         opacity: 0;
     }
