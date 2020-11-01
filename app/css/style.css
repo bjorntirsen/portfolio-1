@@ -7177,6 +7177,20 @@ progress {
   .d-print-none {
     display: none !important; } }
 
+/* Swup Animations */
+.transition-slide {
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(0);
+  transform-origin: top; }
+
+html.is-animating .transition-slide {
+  opacity: 1;
+  transform: translateY(100%); }
+
+html.is-leaving .transition-slide {
+  opacity: 0; }
+
 /* Wrapper Styling */
 .wrapper {
   position: relative;
