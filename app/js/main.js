@@ -1,3 +1,5 @@
 document.addEventListener("DOMContentLoaded", e => {
-    let my_interface = new Interface();
+    //Initiate interface and swup library
+    const interface = new Interface();
+    const swup = new Swup();
 })
