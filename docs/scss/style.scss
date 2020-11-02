@@ -2,24 +2,6 @@
 @import 'utilities';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-/* Swup Animations */
-
-.transition-slide {
-    opacity: 1;
-    transition: 1s;
-    transform: translateY(0);
-    transform-origin: top;
-}
-
-html.is-animating .transition-slide {
-    opacity: 1;
-    transform: translateY(100%);
-}
-
-html.is-leaving .transition-slide {
-    opacity: 0;
-}
-
 /* Wrapper Styling */
 .wrapper {
     position: relative;
@@ -39,6 +21,15 @@ html.is-leaving .transition-slide {
 	z-index: 1;
 	height: 100%;
     width: 100%;
+}
+
+/* index.html styling */
+
+img {
+    display: block;
+    max-width: 75% !important;
+    height: auto;
+    margin: auto;
 }
 
 #landing_container {
