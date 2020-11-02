@@ -7190,7 +7190,8 @@ progress {
   position: relative;
   height: 100%;
   width: 100%;
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  overflow-x: hidden !important; }
 
 .wrapper-background {
   position: absolute;
@@ -7201,13 +7202,18 @@ progress {
   position: relative;
   z-index: 1;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  overflow-x: hidden !important; }
 
 /* portfolio styling */
 .portfolio-container {
   overflow-y: scroll;
-  z-index: 1; }
+  z-index: 1;
+  padding-top: 65px !important; }
 
+/* nav {
+    width: 100%!important;
+} */
 /* index.html styling */
 img {
   display: block;
