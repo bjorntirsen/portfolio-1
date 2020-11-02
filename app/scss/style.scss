@@ -74,6 +74,7 @@ body {
 .zoom {
 	transform: scale(1.1);
     animation: zoom 2s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes zoom {
@@ -87,6 +88,7 @@ body {
 
 .fade-in {
     animation: fadein 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fadein {
@@ -99,7 +101,8 @@ body {
 }
 
 .slow-fade {
-    animation: slowfade 2s;
+    animation: slowfade 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes slowfade {
@@ -112,7 +115,8 @@ body {
 }
 
 .slow-fade85 {
-    animation: slowfade85 2s;
+    animation: slowfade85 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes slowfade85 {

@@ -7235,7 +7235,8 @@ body {
 /* Different Animations */
 .zoom {
   transform: scale(1.1);
-  animation: zoom 2s; }
+  animation: zoom 2s;
+  animation-fill-mode: forwards; }
 
 @keyframes zoom {
   from {
@@ -7244,7 +7245,8 @@ body {
     transform: scale(1.1); } }
 
 .fade-in {
-  animation: fadein 1s; }
+  animation: fadein 1s;
+  animation-fill-mode: forwards; }
 
 @keyframes fadein {
   from {
@@ -7253,7 +7255,8 @@ body {
     opacity: 1; } }
 
 .slow-fade {
-  animation: slowfade 2s; }
+  animation: slowfade 1s;
+  animation-fill-mode: forwards; }
 
 @keyframes slowfade {
   from {
@@ -7262,7 +7265,8 @@ body {
     opacity: 1; } }
 
 .slow-fade85 {
-  animation: slowfade85 2s; }
+  animation: slowfade85 1s;
+  animation-fill-mode: forwards; }
 
 @keyframes slowfade85 {
   from {
