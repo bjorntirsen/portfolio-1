@@ -7178,6 +7178,14 @@ progress {
     display: none !important; } }
 
 /* Wrapper Styling */
+.wrapper2 {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
+.content {
+  background-color: transparent; }
+
 .wrapper {
   position: relative;
   height: 100%;
@@ -7194,6 +7202,11 @@ progress {
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+/* portfolio styling */
+.portfolio-container {
+  overflow-y: scroll;
+  z-index: 1; }
 
 /* index.html styling */
 img {
@@ -7225,7 +7238,7 @@ html {
 body {
   background-color: black; }
 
-/* Different Animations */
+/* Animations */
 .zoom {
   transform: scale(1.1);
   animation: zoom 2s;
