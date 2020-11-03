@@ -7213,7 +7213,8 @@ progress {
 
 nav {
   width: 100vw !important;
-  overflow-x: hidden !important; }
+  overflow-x: hidden !important;
+  z-index: 2 !important; }
 
 /* index.html styling */
 img {
