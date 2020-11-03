@@ -7216,6 +7216,9 @@ nav {
   overflow-x: hidden !important;
   z-index: 2 !important; }
 
+footer {
+  z-index: 1 !important; }
+
 /* index.html styling */
 img {
   display: block;
