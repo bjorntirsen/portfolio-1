@@ -7236,13 +7236,22 @@ html {
   margin: 0; }
 
 .bg {
-  background-image: url("../images/autumn_road_l.jpg");
+  background-image: url("../images/autumn_road_w640.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   z-index: 0; }
+
+/* Media Queries for wider devices than mobile */
+@media only screen and (min-width: 400px) and (max-width: 1400px) {
+  .bg {
+    background-image: url("../images/autumn_road_w1400.jpg"); } }
+
+@media only screen and (min-width: 1401px) {
+  .bg {
+    background-image: url("../images/autumn_road_w2057.jpg"); } }
 
 body {
   background-color: black; }
