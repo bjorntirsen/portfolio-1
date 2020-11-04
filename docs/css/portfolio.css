@@ -7204,14 +7204,18 @@ progress {
 #background {
   background-image: url("../images/autumn_w2400.jpg");
   position: absolute;
+  right: 0;
+  top: 0;
   z-index: -1;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 500px;
+  height: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center; }
 
 #outer-tile {
   overflow: hidden;
   height: 100%;
-  position: relative; }
+  position: relative;
+  padding-top: 25px !important; }
