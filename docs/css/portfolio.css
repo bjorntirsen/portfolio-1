@@ -7176,3 +7176,42 @@ progress {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+/* Add scss variables */
+/* Mixins */
+/* Animations */
+.zoom {
+  transform: scale(1.1);
+  animation: zoom 2s;
+  animation-fill-mode: forwards; }
+
+@keyframes zoom {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.1); } }
+
+.fade-in {
+  animation: fadein 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+#background {
+  background-image: url("../images/autumn_w2400.jpg");
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+#outer-tile {
+  overflow: hidden;
+  height: 100%;
+  position: relative; }
