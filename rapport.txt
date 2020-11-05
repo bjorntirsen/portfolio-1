@@ -10,36 +10,36 @@ De fem ”eventen”: 1. Sprint: En bestämd mängd dagars arbetsperiod som seda
 
 De tre rollerna: 1. Produktägaren: För kundens talan i teamet och bestämmer över Product Backlog. 2. Scrum master: Ska se till att problem som står vägen för arbetet undanröjs och håller vanligtvis i Daily SCRUM mötena. 3. Teammedlemmarna: De som gör arbetet och bestämmer över sin Sprint Backlog.
 
-De tre ”artefakterna”: 1. Product backlog: Lista på alla saker som behöver åstadkommas innan projektet kan be
+De tre ”artefakterna”: 1. Product backlog: Lista på alla saker som behöver åstadkommas innan projektet kan betraktas som slutfört. 2. Sprint backlog: Lista på utvalda saker ur product backlog som ska slutföras under pågående sprint. 3. ”Increment”: De sammanlagda sakerna i product backlog som är helt slutförda och kan släppas i en eventuell release.
 
 1b. Q: Vad är fördelarna med SCRUM?
 
-A:
+A: Metodiken ger en tydlig och lättförståelig struktur för arbetet. Kunden får möjlighet till täta uppdateringar och demos av det som producerats. Det är flexibelt och kan justeras efter varje sprint samtidigt som utvecklarna får lugn och ro till att arbeta under pågående sprint.
 
 1c. Q: Vad är nackdelarna med SCRUM?
 
-A:
+A: Det kan finnas utvecklare som inte tycker om dagliga möten. Det kan vara svårt att genomföra tillsammans med individer som har samarbetssvårigheter. Det kan vara otydligt vad Scrum masters uppgift är för teamet om många teammedlemmar inte har jobbat med scrum tidigare
 
 2a. Q: Vad menas med grafisk profil?
 
-A:
+A: Det är en beskrivning av ett företags eller en produkts utseende utåt som ska kommunicera företagets/produktens identitet. Den kan innehålla logo, färgpallett, typsnitt, mönster och hur de ska användas.
 
 2b. Q: Vad är fördelarna med grafisk profil?
 
-A:
+A: Det blir lätt för designers att skapa ett enhetligt utseende för de sakerna som hör till företaget/produkten. Kunden kan lätt känna igen varan/företaget.
 
 2c. Q: Vad är nackdelarna med grafisk profil?
 
-A:
+A: Det kan skapa vissa begränsningar för designers och utvecklare som kanske vill ha större konstnärlig frihet när de arbetar.
 
 3a. Q: Vad menas med tillgänglighet?
 
-A:
+A: Att information och tjänster ska kunna nås av alla människor oberoende av till exempel funktionsnedsättning. Denna grundfilosofi har lett till att Web Content Accessibility Guidelines (WCAG) har tagits fram. WCAG är en mängd rekommendationer som ska underlätta vid utvecklingen av webbsidor som ska kunna nås av alla.
 
 3b. Q: Vad är fördelarna med tillgänglighet?
 
-A:
+A: Som företag kan du nå fler kunder om du följer tillgänglighetsrekommendationerna när du skapar dina webbsidor. Som person med till exempel funktionsnedsättning kan du tillgodogöra dig mera av det som finns på internet.
 
 3c. Q: Vad är nackdelarna med tillgänglighet?
 
-A:
+A: Om man utgår från tillgänlighetsrekommendationerna kan det ibland innebära att man för göra vissa kompromisser med sin konstnärliga vision. Det kan också innebära lite extra arbete vid utveckling och mer saker att tänka på.
