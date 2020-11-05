@@ -1,11 +1,45 @@
-1. Q: Vad är SCRUM?
+Jag har valt att lägga upp det som numrerade frågor och svar:
+
+1a. Q: Vad är SCRUM?
+
+A: SCRUM är en typ av agil metodik som främst används för mjukvaruutveckling. Termen användes första gången av Hirotaka Takeuchi och Ikujiro Nonaka i en artikel från 1986.
+
+Huvudkomponenterna i metodiken, som ska vara enkel och lätt att förstå, består av fem ”events”, tre ”roller” och tre ”artefakter”.
+
+De fem ”eventen”: 1. Sprint: En bestämd mängd dagars arbetsperiod som sedan utvärderas innan nästa period påbörjas. 2. Sprint planering: Ett möte innan man påbörjar en sprint där man bestämmer hur mycket man ämnar göra under sprinten. 3. Daglig SCRUM: Ett dagligt morgonmöte på max 15 minuter där medlemmarna i utvecklingsteamet vanligtvis reflekterar kring sina bidrag till arbetet under gårdagen och denna dag. 4. Sprint review: Ett sags demo av vad man åstadkommit under sprinten. 5. Retrospective: Utvecklingsteamet reflekterar över den gångna sprinten och eventuella lärdomar för nästa sprint.
+
+De tre rollerna: 1. Produktägaren: För kundens talan i teamet och bestämmer över Product Backlog. 2. Scrum master: Ska se till att problem som står vägen för arbetet undanröjs och håller vanligtvis i Daily SCRUM mötena. 3. Teammedlemmarna: De som gör arbetet och bestämmer över sin Sprint Backlog.
+
+De tre ”artefakterna”: 1. Product backlog: Lista på alla saker som behöver åstadkommas innan projektet kan be
+
+1b. Q: Vad är fördelarna med SCRUM?
 
 A:
 
-2. Q: Vad menas med grafisk profil?
+1c. Q: Vad är nackdelarna med SCRUM?
 
 A:
 
-3. Q: Vad menas med tillgänglighet?
+2a. Q: Vad menas med grafisk profil?
+
+A:
+
+2b. Q: Vad är fördelarna med grafisk profil?
+
+A:
+
+2c. Q: Vad är nackdelarna med grafisk profil?
+
+A:
+
+3a. Q: Vad menas med tillgänglighet?
+
+A:
+
+3b. Q: Vad är fördelarna med tillgänglighet?
+
+A:
+
+3c. Q: Vad är nackdelarna med tillgänglighet?
 
 A:
