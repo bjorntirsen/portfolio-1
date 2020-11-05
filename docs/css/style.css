@@ -7261,9 +7261,7 @@ html {
   border-radius: inherit;
   border: inherit;
   outline: inherit;
-  box-shadow: inherit;
-  padding: inherit;
-  vertical-align: inherit; }
+  box-shadow: inherit; }
 
 /* Media Queries for wider devices than mobile */
 @media only screen and (min-width: 400px) and (max-width: 1400px) {
