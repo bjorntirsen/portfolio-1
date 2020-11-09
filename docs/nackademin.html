@@ -48,71 +48,67 @@
             </div>
         </nav>
         <!-- Main Page Content -->
-        <main id="outer_tile" class="col">
-            <!-- Pseudo Element -->
-            <div id="background" class="zoom">
-            </div>
-            <!-- Scrollable Content -->
-            <div id="grid_container">
-                <aside id="aside">
-                    <p>Aside. I started Nackademins 2 year "Web Developer Fullstack Open Source" program this august. This page is a presentation of that school in Swedish.</p>
-                    <p>You can visit the schools website <a href="https://nackademin.se/"></a> nackademin.se here.</p>
-                </aside>
-                <section id="main">
-                    <h2>Välkommen till Nackademin</h2>
-                    <picture>
-                        <source srcset="images/students_w1280.jpg" media="(min-width: 1280px)" />
-                        <source srcset="images/students_w640.jpg" media="(min-width: 640px)" />
-                        <img src="images/students_w375.jpg" class="card-img-top  border border-primary" alt="autumn landscape">
-                    </picture>
-                    <p>"Hos oss blir du redo för jobb. Nackademin är en yrkeshögskola (YH) som erbjuder pricksäkra och relevanta utbildningar som kombinerar teori och praktik."</p>
-                    <p>"Utbildningarna planeras och genomförs i nära samarbete med näringslivet, och minst en fjärdedel av utbildningen på yrkeshögskolan består av praktik ute på arbetsplats (LIA – Lärande i arbete). Alla våra yrkeshögskoleutbildningar är avgiftsfria och berättigar till CSN."</p>
-                </section>
-                <div id="content1">
-                    <h3>IT utbildningar i urval:</h3>
-                    <ul>
-                        <li>DevOps Engineer</li>
-                        <li>Programutvecklare Java</li>
-                        <li>Utvecklare inom VR</li>
-                        <li>IT-säkerhetstekniker</li>
-                        <li>UX-designer</li>
-                    </ul>
-                </div>
-                <div id="content2">
-                    <h3>Byggutbildningar i urval:</h3>
-                    <ul>
-                        <li>Arbetsledare bygg och anläggning</li>
-                        <li>Samhällsbyggnad infrastruktur</li>
-                        <li>Byggnadsingenjör hållbart byggande</li>
-                        <li>Byggnadsingenjör mark och vatten</li>
-                        <li>Järnvägsingenjör</li>
-                    </ul>
-                </div>
-                <div id="content3">
-                    <h3>Kommunikationsutbildningar i urval:</h3>
-                    <ul>
-                        <li>Social Media Manager</li>
-                        <li>Social Media Manager - distans</li>
-                        <li>Digital Marketing/Growth Manager</li>
-                    </ul>
-                </div>
-            </div>
-        </main>
-        <footer id="footer" class="footer mt-auto py-3 bg-light">
-            <section class="container">
-                <section>
-                    <h3 class="text-muted">Email</h3>
-                    <p><a href="mailto:bjorntirsen@gmail.com">bjorntirsen@gmail.com</a></p>
-                </section>
-                <section>
-                    <h3 class="text-muted">Social</h3>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/bjorntirsen/" class=""><i class="fab fa-linkedin fa-2x"></i><span class="label">LinkedIn</span></a></li>
-                        <li class="list-inline-item"><a href="https://github.com/bjorntirsen" class=""><i class="fab fa-github fa-2x"></i><span class="label">GitHub</span></a></li>
-                    </ul>
-                </section>
+        <div id="grid_container" class="background">
+            <aside id="aside" class="my_container">
+                <h2 class="text-uppercase font-weight-bold">My time at Nackademin</h2>
+                <p>I started Nackademins 2 year "Web Developer Fullstack Open Source" program this august. This page is a presentation of that school in Swedish.</p>
+                <p>I will graduate in May 2022.</p>
+                <p>You can visit the schools website <a href="https://nackademin.se/"></a> nackademin.se here.</p>
+            </aside>
+            <section id="main" class="my_container">
+                <h2 class="text-uppercase font-weight-bold">Välkommen till Nackademin</h2>
+                <picture>
+                    <source srcset="images/students_w1280.jpg" media="(min-width: 1280px)" />
+                    <source srcset="images/students_w640.jpg" media="(min-width: 640px)" />
+                    <img src="images/students_w375.jpg" alt="autumn landscape">
+                </picture>
+                <p>"Hos oss blir du redo för jobb. Nackademin är en yrkeshögskola (YH) som erbjuder pricksäkra och relevanta utbildningar som kombinerar teori och praktik."</p>
+                <p>"Utbildningarna planeras och genomförs i nära samarbete med näringslivet, och minst en fjärdedel av utbildningen på yrkeshögskolan består av praktik ute på arbetsplats (LIA – Lärande i arbete). Alla våra yrkeshögskoleutbildningar är avgiftsfria och berättigar till CSN."</p>
             </section>
-        </footer>
+            <div id="content1" class="my_container">
+                <h3 class="text-uppercase font-weight-bold">IT-utbildningar i urval:</h3>
+                <ul>
+                    <li>DevOps Engineer</li>
+                    <li>Programutvecklare Java</li>
+                    <li>Utvecklare inom VR</li>
+                    <li>IT-säkerhetstekniker</li>
+                    <li>UX-designer</li>
+                </ul>
+            </div>
+            <div id="content2" class="my_container">
+                <h3 class="text-uppercase font-weight-bold">Bygg-utbildningar i urval:</h3>
+                <ul>
+                    <li>Arbetsledare bygg och anläggning</li>
+                    <li>Samhällsbyggnad infrastruktur</li>
+                    <li>Byggnadsingenjör hållbart byggande</li>
+                    <li>Byggnadsingenjör mark och vatten</li>
+                    <li>Järnvägsingenjör</li>
+                </ul>
+            </div>
+            <div id="content3" class="my_container">
+                <h3 class="text-uppercase font-weight-bold">Kommunikations-utbildningar i urval:</h3>
+                <ul>
+                    <li>Social Media Manager</li>
+                    <li>Social Media Manager - distans</li>
+                    <li>Digital Marketing/Growth Manager</li>
+                </ul>
+            </div>
+            <footer id="footer" class="footer mt-auto py-3 bg-light">
+                <section class="container">
+                    <section>
+                        <h3 class="text-muted">Email</h3>
+                        <p><a href="mailto:bjorntirsen@gmail.com">bjorntirsen@gmail.com</a></p>
+                    </section>
+                    <section>
+                        <h3 class="text-muted">Social</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/bjorntirsen/" class=""><i class="fab fa-linkedin fa-2x"></i><span class="label">LinkedIn</span></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/bjorntirsen" class=""><i class="fab fa-github fa-2x"></i><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </footer>
+        </div>
     </div>
     <!-- JavaScript -->
     <!-- My own js -->

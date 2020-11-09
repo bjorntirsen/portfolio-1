@@ -7180,34 +7180,6 @@ progress {
 /* Nackademin page specific stylesheet */
 /* Add scss variables */
 /* Mixins */
-#background {
-  background-image: url("../images/nackademin_w2560.jpg");
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-#outer-tile {
-  overflow: hidden;
-  height: 100%;
-  position: relative;
-  padding-top: 60px !important; }
-
-#container {
-  margin: 10px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem; }
-
-#main {
-  background-color: lightblue; }
-
 /* Animations */
 .zoom {
   transform: scale(1.1);
@@ -7245,3 +7217,62 @@ progress {
   border: inherit;
   outline: inherit;
   box-shadow: inherit; }
+
+.background {
+  background-image: url("../images/nackademin_w2560.jpg");
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+#grid_container {
+  padding-top: 65px !important;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem; }
+
+/* Nested Selectors */
+.my_container {
+  background-color: white;
+  margin: 0 10px;
+  text-align: center; }
+  .my_container ul {
+    text-align: left; }
+  .my_container img {
+    width: 90%; }
+  .my_container h2, .my_container .h2, .my_container h3, .my_container .h3 {
+    background-color: #F7F7F7;
+    padding: 10px; }
+
+#aside {
+  grid-area: aside; }
+
+#main {
+  grid-area: main; }
+
+#content1 {
+  grid-area: content1; }
+
+#content2 {
+  grid-area: content2; }
+
+#content3 {
+  grid-area: content3; }
+
+#footer {
+  grid-area: footer; }
+
+/* Media Queries for Tablet and Desktop */
+@media only screen and (min-width: 751px) and (max-width: 1080px) {
+  #grid_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "aside aside aside" "main main main" "content1 content2 content3" "footer footer footer"; } }
+
+@media only screen and (min-width: 1081px) {
+  #grid_container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "aside aside aside" "main main main" "content1 content2 content3" "footer footer footer"; } }
