@@ -1,0 +1,98 @@
+@import 'variables';
+@import 'utilities';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* Nackademin page specific stylesheet */
+
+
+/* Add scss variables */
+
+/* Mixins */
+@mixin background {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#background {
+    background-image: url("../images/nackademin_w2560.jpg");
+    @include background;
+}
+
+#container {
+    padding-top: 60px!important;
+    overflow: hidden;
+    height: 100%;
+    position:relative;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+#main {
+    background-color: lightblue;
+}
+
+
+
+/* Animations */
+.zoom {
+	transform: scale(1.1);
+    animation: zoom 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.fade-in {
+    animation: fadein 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* My own link unstyled helper class */
+.link-unstyled {
+    &,
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:hover {
+      font-style: inherit;
+      color: inherit;
+      background-color: transparent;
+      font-size: inherit;
+      text-decoration: none;
+      font-variant: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      font-family: inherit;
+      border-radius: inherit;
+      border: inherit;
+      outline: inherit;
+      box-shadow: inherit;
+    }
+  }
