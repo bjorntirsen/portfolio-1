@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Björn Tirsén Portfolio - Developing the Developer</title>
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/portfolio.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/0d5fbab0c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <!-- Wrapper -->
+    <div class="fade-in">
+        <!-- Nav Bar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand text-muted" href="#">Björn Tirsén's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-muted"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Landing Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About this site</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nackademin.html">My School - Nackademin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="upcoming.html">Upcoming Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Portfolio Page Content -->
+        <main id="outer-tile" class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <!-- Pseudo Element -->
+                    <section id="background" class="zoom">
+                    </section>
+                    <!-- Featured Post -->
+                    <div class="card mb-3">
+                        <header class="card-header">
+                            <div class="text-center text-muted">November 9, 2020</div>
+                            <h2 class="card-title text-uppercase font-weight-bold text-center">About this site:</h2>
+                            <h3 class="card-subtitle text-muted text-uppercase font-weight-bold text-center">
+                                "Developing the developer - the Björn Tirsén Portfolio"</h3>
+                        </header>
+                        <article class="card-body text-center font-monospace font-italic">
+                            <p>This site was built according to specific requirements by our teacher. The requirements are reprinted below in Swedish.</p>
+                            <p>If you would like more information about me or ask for my resumé, I would suggest emailing me or visiting my LinkedIn page.</p>
+                            <p>This site complies with the following accessibility guidelines:</p>
+                            <a class="mt-3 btn btn-outline-primary btn-lg" href="#footer" role="button">Contact Me Here</a>
+                        </article>
+                    </div>
+                    <!-- Additional Posts -->
+                    <div class="my-1 card">
+                        <header class="card-header">
+                            <a class="link-unstyled" href="https://bjorntirsen.github.io/event_project/"><div class="text-center text-muted">October 30, 2020</div>
+                            <h2 class="card-title text-uppercase font-weight-bold text-center">Project Requirements</h2>
+                            <h3 class="card-subtitle text-muted text-uppercase font-weight-bold text-center">
+                                In Swedish</h3></a>
+                        </header>
+                        <article class="card-body text-center font-monospace font-italic">
+                            <h5 class="card-title text-uppercase font-weight-bold text-center">Individuell inlämningsuppgift - portfolio/CV</h5>
+                            <p>Er uppgift är att bygga en sida som fungerar som CV/portfolio.</p>
+                            <p>Sidan ska innehålla följande delar:</p>
+                            <ul class="text-left">
+                                <li>Landing page - kortfattad beskrivning.</li>
+                                <li>Kontaktuppgifter.</li>
+                                <li>Portfolio.</li>
+                                <li>Länkar till GitHub, LinkedIn och liknande.</li>
+                            </ul>
+                            <p>Ni ska implementera ett visst antal tillgänglighetskrav. (https://webbriktlinjer.se/wcag/)</p>
+                            <p>Sidan ska vara publikt tillgänglig. Ett enkelt alternativ är Github Pages. Guide från Sarmad:</p>
+                            <ul class="text-left">
+                                <li>Github pages det är enkelt att komma igång</li>
+                                <li>Gör repo med namn --> username.github.io</li>
+                                <li>Pusha</li>
+                                <li>Ni kommer åt sidan genom att besöka https://username.github.io</li>
+                            </ul>
+                            <h6>G-krav</h6>
+                            <ul class="text-left">
+                                <li>Ni ska visa att ni kan använda SCSS genom att använda mixins och nästlade selektorer.</li>
+                                <li>Implementera minst 2 tillgänglighetskrav.</li>
+                                <li>Sidan ska vara responsiv och använda media queries.</li>
+                                <li>Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids eller Flexbox.</li>
+                                <li>Det ska finnas en sida som beskriver utbildningen.</li>
+                                <li>I ditt repo ska det finnas en rapport.txt (jag kommer att kolla era repon genom VS Code och vill slippa öppna Word eller liknande) där du beskriver Scrum, grafisk profil och tillgänglighet så att jag kan se att du förstår dessa begrepp.</li>
+                            </ul>
+                            <h6>VG-krav</h6>
+                            <ul class="text-left">
+                                <li>Allt som ingår för G och inte överskrivs av något VG-krav.</li>
+                                <li>Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids OCH Flexbox.</li>
+                                <li>Ni ska ha någon funktionalitet som använder sig av CSS Transitions eller CSS Animations. Det kan t ex vara en meny som fälls ut animerat när man klickar på den, innehåll som sakta skiftar bakgrundsfärg när man hovrar den eller någon liknande. Ni får använda er av JavaScript om ni vill, men ni får även använda er av hoover-selektorer om det passar er bättre.</li>
+                                <li>All kod (HTML, SCSS/CSS, JavaScript) ska vara välskriven, korrekt indenterad och kommenterad.</li>
+                                <li>Implementera minst 5 tillgänglighetskrav.</li>
+                                <li>Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/svårigheter med de olika teknikerna.</li>
+                                <li>Lämna in i tid, dvs om du får en restuppgift kommer du inte att kunna få VG, enbart IG/G.</li>
+                            </ul>
+                            <p>Redovisning sker dels genom att lämna in en länk till ett repo som visar att ni kan använda git i ert dagliga arbete med era projekt senast söndag 15/11, dels muntligt när ni visar upp era projekt 12-13/11. Redovisningen är obligatorisk och både den muntliga redovisningen och det inlämnade materialet är betygsgrundande.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer" class="footer mt-auto py-3 bg-light">
+            <section class="container">
+                <section>
+                    <h3 class="text-muted">Email</h3>
+                    <p><a href="mailto:bjorntirsen@gmail.com">bjorntirsen@gmail.com</a></p>
+                </section>
+                <section>
+                    <h3 class="text-muted">Social</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/bjorntirsen/" class=""><i class="fab fa-linkedin fa-2x"></i><span class="label">LinkedIn</span></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/bjorntirsen" class=""><i class="fab fa-github fa-2x"></i><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+    </div>
+    <!-- JavaScript -->
+    <!-- My own js -->
+    <script src="js/main.js"></script>
+    <script src="js/interface.js"></script>
+    <!-- Bootstrap 5 Alpha -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+
+</html>
