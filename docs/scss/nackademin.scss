@@ -82,7 +82,6 @@
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1rem;
     grid-template-areas: 
         "aside"
         "main"
@@ -95,7 +94,7 @@
 /* Nested Selectors */
 .my_container {
     background-color: white;
-    margin: 0 10px;
+    margin: 10px;
     text-align: center;
     p {
         padding: 0 15%;

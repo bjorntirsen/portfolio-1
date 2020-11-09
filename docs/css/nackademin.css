@@ -7233,13 +7233,12 @@ progress {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1rem;
   grid-template-areas: "aside" "main" "content1" "content2" "content3" "footer"; }
 
 /* Nested Selectors */
 .my_container {
   background-color: white;
-  margin: 0 10px;
+  margin: 10px;
   text-align: center; }
   .my_container p {
     padding: 0 15%; }
