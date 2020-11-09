@@ -7227,7 +7227,8 @@ img {
   margin: auto; }
 
 #landing_container {
-  background: rgba(215, 191, 142, 0.65) !important; }
+  background: rgba(215, 191, 142, 0.65) !important;
+  max-width: 550px; }
 
 #profile {
   opacity: 1 !important; }
