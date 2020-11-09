@@ -26,11 +26,14 @@
     @include background;
 }
 
-#container {
-    padding-top: 60px!important;
+#outer-tile {
     overflow: hidden;
     height: 100%;
     position:relative;
+    padding-top: 60px!important;
+}
+
+#container {
     margin: 10px;
     display: grid;
     grid-template-columns: 1fr;
@@ -40,8 +43,6 @@
 #main {
     background-color: lightblue;
 }
-
-
 
 /* Animations */
 .zoom {
@@ -95,4 +96,4 @@
       outline: inherit;
       box-shadow: inherit;
     }
-  }
+}

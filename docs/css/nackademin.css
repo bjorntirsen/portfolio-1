@@ -7193,11 +7193,13 @@ progress {
   background-repeat: no-repeat;
   background-position: center; }
 
-#container {
-  padding-top: 60px !important;
+#outer-tile {
   overflow: hidden;
   height: 100%;
   position: relative;
+  padding-top: 60px !important; }
+
+#container {
   margin: 10px;
   display: grid;
   grid-template-columns: 1fr;
