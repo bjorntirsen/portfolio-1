@@ -1,0 +1,2959 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "version": "1.0.0",
+      "license": "ISC",
+      "devDependencies": {
+        "browser-sync": "npm:undefined@^",
+        "gulp": "npm:undefined@^",
+        "gulp-sass": "npm:undefined@^"
+      }
+    },
+    "node_modules/abbrev": {
+      "extraneous": true
+    },
+    "node_modules/accepts": {
+      "extraneous": true
+    },
+    "node_modules/after": {
+      "extraneous": true
+    },
+    "node_modules/ajv": {
+      "extraneous": true
+    },
+    "node_modules/amdefine": {
+      "extraneous": true
+    },
+    "node_modules/ansi-colors": {
+      "extraneous": true
+    },
+    "node_modules/ansi-gray": {
+      "extraneous": true
+    },
+    "node_modules/ansi-regex": {
+      "extraneous": true
+    },
+    "node_modules/ansi-styles": {
+      "extraneous": true
+    },
+    "node_modules/ansi-wrap": {
+      "extraneous": true
+    },
+    "node_modules/anymatch": {
+      "extraneous": true
+    },
+    "node_modules/append-buffer": {
+      "extraneous": true
+    },
+    "node_modules/aproba": {
+      "extraneous": true
+    },
+    "node_modules/archy": {
+      "extraneous": true
+    },
+    "node_modules/are-we-there-yet": {
+      "extraneous": true
+    },
+    "node_modules/arr-diff": {
+      "extraneous": true
+    },
+    "node_modules/arr-filter": {
+      "extraneous": true
+    },
+    "node_modules/arr-flatten": {
+      "extraneous": true
+    },
+    "node_modules/arr-map": {
+      "extraneous": true
+    },
+    "node_modules/arr-union": {
+      "extraneous": true
+    },
+    "node_modules/array-each": {
+      "extraneous": true
+    },
+    "node_modules/array-find-index": {
+      "extraneous": true
+    },
+    "node_modules/array-initial": {
+      "extraneous": true
+    },
+    "node_modules/array-last": {
+      "extraneous": true
+    },
+    "node_modules/array-slice": {
+      "extraneous": true
+    },
+    "node_modules/array-sort": {
+      "extraneous": true
+    },
+    "node_modules/array-unique": {
+      "extraneous": true
+    },
+    "node_modules/arraybuffer.slice": {
+      "extraneous": true
+    },
+    "node_modules/asn1": {
+      "extraneous": true
+    },
+    "node_modules/assert-plus": {
+      "extraneous": true
+    },
+    "node_modules/assign-symbols": {
+      "extraneous": true
+    },
+    "node_modules/async": {
+      "extraneous": true
+    },
+    "node_modules/async-done": {
+      "extraneous": true
+    },
+    "node_modules/async-each": {
+      "extraneous": true
+    },
+    "node_modules/async-each-series": {
+      "extraneous": true
+    },
+    "node_modules/async-foreach": {
+      "extraneous": true
+    },
+    "node_modules/async-limiter": {
+      "extraneous": true
+    },
+    "node_modules/async-settle": {
+      "extraneous": true
+    },
+    "node_modules/asynckit": {
+      "extraneous": true
+    },
+    "node_modules/atob": {
+      "extraneous": true
+    },
+    "node_modules/aws-sign2": {
+      "extraneous": true
+    },
+    "node_modules/aws4": {
+      "extraneous": true
+    },
+    "node_modules/axios": {
+      "extraneous": true
+    },
+    "node_modules/bach": {
+      "extraneous": true
+    },
+    "node_modules/backo2": {
+      "extraneous": true
+    },
+    "node_modules/balanced-match": {
+      "extraneous": true
+    },
+    "node_modules/base": {
+      "extraneous": true
+    },
+    "node_modules/base64-arraybuffer": {
+      "extraneous": true
+    },
+    "node_modules/base64id": {
+      "extraneous": true
+    },
+    "node_modules/batch": {
+      "extraneous": true
+    },
+    "node_modules/bcrypt-pbkdf": {
+      "extraneous": true
+    },
+    "node_modules/better-assert": {
+      "extraneous": true
+    },
+    "node_modules/binary-extensions": {
+      "extraneous": true
+    },
+    "node_modules/bindings": {
+      "extraneous": true
+    },
+    "node_modules/blob": {
+      "extraneous": true
+    },
+    "node_modules/block-stream": {
+      "extraneous": true
+    },
+    "node_modules/bootstrap": {
+      "extraneous": true
+    },
+    "node_modules/brace-expansion": {
+      "extraneous": true
+    },
+    "node_modules/braces": {
+      "extraneous": true
+    },
+    "node_modules/browser-sync": {
+      "dev": true
+    },
+    "node_modules/browser-sync-client": {
+      "extraneous": true
+    },
+    "node_modules/browser-sync-ui": {
+      "extraneous": true
+    },
+    "node_modules/bs-recipes": {
+      "extraneous": true
+    },
+    "node_modules/bs-snippet-injector": {
+      "extraneous": true
+    },
+    "node_modules/buffer-equal": {
+      "extraneous": true
+    },
+    "node_modules/buffer-from": {
+      "extraneous": true
+    },
+    "node_modules/bytes": {
+      "extraneous": true
+    },
+    "node_modules/cache-base": {
+      "extraneous": true
+    },
+    "node_modules/callsite": {
+      "extraneous": true
+    },
+    "node_modules/camelcase": {
+      "extraneous": true
+    },
+    "node_modules/camelcase-keys": {
+      "extraneous": true
+    },
+    "node_modules/caseless": {
+      "extraneous": true
+    },
+    "node_modules/chalk": {
+      "extraneous": true
+    },
+    "node_modules/chokidar": {
+      "extraneous": true
+    },
+    "node_modules/class-utils": {
+      "extraneous": true
+    },
+    "node_modules/cliui": {
+      "extraneous": true
+    },
+    "node_modules/clone": {
+      "extraneous": true
+    },
+    "node_modules/clone-buffer": {
+      "extraneous": true
+    },
+    "node_modules/clone-stats": {
+      "extraneous": true
+    },
+    "node_modules/cloneable-readable": {
+      "extraneous": true
+    },
+    "node_modules/code-point-at": {
+      "extraneous": true
+    },
+    "node_modules/collection-map": {
+      "extraneous": true
+    },
+    "node_modules/collection-visit": {
+      "extraneous": true
+    },
+    "node_modules/color-convert": {
+      "extraneous": true
+    },
+    "node_modules/color-name": {
+      "extraneous": true
+    },
+    "node_modules/color-support": {
+      "extraneous": true
+    },
+    "node_modules/combined-stream": {
+      "extraneous": true
+    },
+    "node_modules/commander": {
+      "extraneous": true
+    },
+    "node_modules/component-bind": {
+      "extraneous": true
+    },
+    "node_modules/component-emitter": {
+      "extraneous": true
+    },
+    "node_modules/component-inherit": {
+      "extraneous": true
+    },
+    "node_modules/concat-map": {
+      "extraneous": true
+    },
+    "node_modules/concat-stream": {
+      "extraneous": true
+    },
+    "node_modules/connect": {
+      "extraneous": true
+    },
+    "node_modules/connect-history-api-fallback": {
+      "extraneous": true
+    },
+    "node_modules/console-control-strings": {
+      "extraneous": true
+    },
+    "node_modules/convert-source-map": {
+      "extraneous": true
+    },
+    "node_modules/cookie": {
+      "extraneous": true
+    },
+    "node_modules/copy-descriptor": {
+      "extraneous": true
+    },
+    "node_modules/copy-props": {
+      "extraneous": true
+    },
+    "node_modules/core-util-is": {
+      "extraneous": true
+    },
+    "node_modules/cross-spawn": {
+      "extraneous": true
+    },
+    "node_modules/currently-unhandled": {
+      "extraneous": true
+    },
+    "node_modules/d": {
+      "extraneous": true
+    },
+    "node_modules/dashdash": {
+      "extraneous": true
+    },
+    "node_modules/debug": {
+      "extraneous": true
+    },
+    "node_modules/decamelize": {
+      "extraneous": true
+    },
+    "node_modules/decode-uri-component": {
+      "extraneous": true
+    },
+    "node_modules/default-compare": {
+      "extraneous": true
+    },
+    "node_modules/default-resolution": {
+      "extraneous": true
+    },
+    "node_modules/define-properties": {
+      "extraneous": true
+    },
+    "node_modules/define-property": {
+      "extraneous": true
+    },
+    "node_modules/delayed-stream": {
+      "extraneous": true
+    },
+    "node_modules/delegates": {
+      "extraneous": true
+    },
+    "node_modules/depd": {
+      "extraneous": true
+    },
+    "node_modules/destroy": {
+      "extraneous": true
+    },
+    "node_modules/detect-file": {
+      "extraneous": true
+    },
+    "node_modules/dev-ip": {
+      "extraneous": true
+    },
+    "node_modules/dlv": {
+      "extraneous": true
+    },
+    "node_modules/duplexify": {
+      "extraneous": true
+    },
+    "node_modules/each-props": {
+      "extraneous": true
+    },
+    "node_modules/easy-extender": {
+      "extraneous": true
+    },
+    "node_modules/eazy-logger": {
+      "extraneous": true
+    },
+    "node_modules/ecc-jsbn": {
+      "extraneous": true
+    },
+    "node_modules/ee-first": {
+      "extraneous": true
+    },
+    "node_modules/emoji-regex": {
+      "extraneous": true
+    },
+    "node_modules/encodeurl": {
+      "extraneous": true
+    },
+    "node_modules/end-of-stream": {
+      "extraneous": true
+    },
+    "node_modules/engine.io": {
+      "extraneous": true
+    },
+    "node_modules/engine.io-client": {
+      "extraneous": true
+    },
+    "node_modules/engine.io-parser": {
+      "extraneous": true
+    },
+    "node_modules/error-ex": {
+      "extraneous": true
+    },
+    "node_modules/es-abstract": {
+      "extraneous": true
+    },
+    "node_modules/es-to-primitive": {
+      "extraneous": true
+    },
+    "node_modules/es5-ext": {
+      "extraneous": true
+    },
+    "node_modules/es6-iterator": {
+      "extraneous": true
+    },
+    "node_modules/es6-symbol": {
+      "extraneous": true
+    },
+    "node_modules/es6-weak-map": {
+      "extraneous": true
+    },
+    "node_modules/escape-html": {
+      "extraneous": true
+    },
+    "node_modules/escape-string-regexp": {
+      "extraneous": true
+    },
+    "node_modules/etag": {
+      "extraneous": true
+    },
+    "node_modules/eventemitter3": {
+      "extraneous": true
+    },
+    "node_modules/expand-brackets": {
+      "extraneous": true
+    },
+    "node_modules/expand-tilde": {
+      "extraneous": true
+    },
+    "node_modules/ext": {
+      "extraneous": true
+    },
+    "node_modules/extend": {
+      "extraneous": true
+    },
+    "node_modules/extend-shallow": {
+      "extraneous": true
+    },
+    "node_modules/extglob": {
+      "extraneous": true
+    },
+    "node_modules/extsprintf": {
+      "extraneous": true
+    },
+    "node_modules/fancy-log": {
+      "extraneous": true
+    },
+    "node_modules/fast-deep-equal": {
+      "extraneous": true
+    },
+    "node_modules/fast-json-stable-stringify": {
+      "extraneous": true
+    },
+    "node_modules/fast-levenshtein": {
+      "extraneous": true
+    },
+    "node_modules/file-uri-to-path": {
+      "extraneous": true
+    },
+    "node_modules/fill-range": {
+      "extraneous": true
+    },
+    "node_modules/finalhandler": {
+      "extraneous": true
+    },
+    "node_modules/find-up": {
+      "extraneous": true
+    },
+    "node_modules/findup-sync": {
+      "extraneous": true
+    },
+    "node_modules/fined": {
+      "extraneous": true
+    },
+    "node_modules/flagged-respawn": {
+      "extraneous": true
+    },
+    "node_modules/flush-write-stream": {
+      "extraneous": true
+    },
+    "node_modules/follow-redirects": {
+      "extraneous": true
+    },
+    "node_modules/for-in": {
+      "extraneous": true
+    },
+    "node_modules/for-own": {
+      "extraneous": true
+    },
+    "node_modules/forever-agent": {
+      "extraneous": true
+    },
+    "node_modules/form-data": {
+      "extraneous": true
+    },
+    "node_modules/fragment-cache": {
+      "extraneous": true
+    },
+    "node_modules/fresh": {
+      "extraneous": true
+    },
+    "node_modules/fs-extra": {
+      "extraneous": true
+    },
+    "node_modules/fs-mkdirp-stream": {
+      "extraneous": true
+    },
+    "node_modules/fs.realpath": {
+      "extraneous": true
+    },
+    "node_modules/fsevents": {
+      "extraneous": true
+    },
+    "node_modules/fstream": {
+      "extraneous": true
+    },
+    "node_modules/function-bind": {
+      "extraneous": true
+    },
+    "node_modules/gauge": {
+      "extraneous": true
+    },
+    "node_modules/gaze": {
+      "extraneous": true
+    },
+    "node_modules/get-caller-file": {
+      "extraneous": true
+    },
+    "node_modules/get-stdin": {
+      "extraneous": true
+    },
+    "node_modules/get-value": {
+      "extraneous": true
+    },
+    "node_modules/getpass": {
+      "extraneous": true
+    },
+    "node_modules/glob": {
+      "extraneous": true
+    },
+    "node_modules/glob-parent": {
+      "extraneous": true
+    },
+    "node_modules/glob-stream": {
+      "extraneous": true
+    },
+    "node_modules/glob-watcher": {
+      "extraneous": true
+    },
+    "node_modules/global-modules": {
+      "extraneous": true
+    },
+    "node_modules/global-prefix": {
+      "extraneous": true
+    },
+    "node_modules/globule": {
+      "extraneous": true
+    },
+    "node_modules/glogg": {
+      "extraneous": true
+    },
+    "node_modules/graceful-fs": {
+      "extraneous": true
+    },
+    "node_modules/gulp": {
+      "dev": true
+    },
+    "node_modules/gulp-sass": {
+      "dev": true
+    },
+    "node_modules/gulplog": {
+      "extraneous": true
+    },
+    "node_modules/har-schema": {
+      "extraneous": true
+    },
+    "node_modules/har-validator": {
+      "extraneous": true
+    },
+    "node_modules/has": {
+      "extraneous": true
+    },
+    "node_modules/has-ansi": {
+      "extraneous": true
+    },
+    "node_modules/has-binary2": {
+      "extraneous": true
+    },
+    "node_modules/has-cors": {
+      "extraneous": true
+    },
+    "node_modules/has-flag": {
+      "extraneous": true
+    },
+    "node_modules/has-symbols": {
+      "extraneous": true
+    },
+    "node_modules/has-unicode": {
+      "extraneous": true
+    },
+    "node_modules/has-value": {
+      "extraneous": true
+    },
+    "node_modules/has-values": {
+      "extraneous": true
+    },
+    "node_modules/homedir-polyfill": {
+      "extraneous": true
+    },
+    "node_modules/hosted-git-info": {
+      "extraneous": true
+    },
+    "node_modules/http-errors": {
+      "extraneous": true
+    },
+    "node_modules/http-proxy": {
+      "extraneous": true
+    },
+    "node_modules/http-signature": {
+      "extraneous": true
+    },
+    "node_modules/iconv-lite": {
+      "extraneous": true
+    },
+    "node_modules/immutable": {
+      "extraneous": true
+    },
+    "node_modules/in-publish": {
+      "extraneous": true
+    },
+    "node_modules/indent-string": {
+      "extraneous": true
+    },
+    "node_modules/indexof": {
+      "extraneous": true
+    },
+    "node_modules/inflight": {
+      "extraneous": true
+    },
+    "node_modules/inherits": {
+      "extraneous": true
+    },
+    "node_modules/ini": {
+      "extraneous": true
+    },
+    "node_modules/interpret": {
+      "extraneous": true
+    },
+    "node_modules/invert-kv": {
+      "extraneous": true
+    },
+    "node_modules/is-absolute": {
+      "extraneous": true
+    },
+    "node_modules/is-accessor-descriptor": {
+      "extraneous": true
+    },
+    "node_modules/is-arrayish": {
+      "extraneous": true
+    },
+    "node_modules/is-binary-path": {
+      "extraneous": true
+    },
+    "node_modules/is-buffer": {
+      "extraneous": true
+    },
+    "node_modules/is-callable": {
+      "extraneous": true
+    },
+    "node_modules/is-core-module": {
+      "extraneous": true
+    },
+    "node_modules/is-data-descriptor": {
+      "extraneous": true
+    },
+    "node_modules/is-date-object": {
+      "extraneous": true
+    },
+    "node_modules/is-descriptor": {
+      "extraneous": true
+    },
+    "node_modules/is-extendable": {
+      "extraneous": true
+    },
+    "node_modules/is-extglob": {
+      "extraneous": true
+    },
+    "node_modules/is-finite": {
+      "extraneous": true
+    },
+    "node_modules/is-fullwidth-code-point": {
+      "extraneous": true
+    },
+    "node_modules/is-glob": {
+      "extraneous": true
+    },
+    "node_modules/is-negated-glob": {
+      "extraneous": true
+    },
+    "node_modules/is-negative-zero": {
+      "extraneous": true
+    },
+    "node_modules/is-number": {
+      "extraneous": true
+    },
+    "node_modules/is-number-like": {
+      "extraneous": true
+    },
+    "node_modules/is-plain-object": {
+      "extraneous": true
+    },
+    "node_modules/is-regex": {
+      "extraneous": true
+    },
+    "node_modules/is-relative": {
+      "extraneous": true
+    },
+    "node_modules/is-symbol": {
+      "extraneous": true
+    },
+    "node_modules/is-typedarray": {
+      "extraneous": true
+    },
+    "node_modules/is-unc-path": {
+      "extraneous": true
+    },
+    "node_modules/is-utf8": {
+      "extraneous": true
+    },
+    "node_modules/is-valid-glob": {
+      "extraneous": true
+    },
+    "node_modules/is-windows": {
+      "extraneous": true
+    },
+    "node_modules/is-wsl": {
+      "extraneous": true
+    },
+    "node_modules/isarray": {
+      "extraneous": true
+    },
+    "node_modules/isexe": {
+      "extraneous": true
+    },
+    "node_modules/isobject": {
+      "extraneous": true
+    },
+    "node_modules/isstream": {
+      "extraneous": true
+    },
+    "node_modules/js-base64": {
+      "extraneous": true
+    },
+    "node_modules/jsbn": {
+      "extraneous": true
+    },
+    "node_modules/json-schema": {
+      "extraneous": true
+    },
+    "node_modules/json-schema-traverse": {
+      "extraneous": true
+    },
+    "node_modules/json-stable-stringify-without-jsonify": {
+      "extraneous": true
+    },
+    "node_modules/json-stringify-safe": {
+      "extraneous": true
+    },
+    "node_modules/jsonfile": {
+      "extraneous": true
+    },
+    "node_modules/jsprim": {
+      "extraneous": true
+    },
+    "node_modules/just-debounce": {
+      "extraneous": true
+    },
+    "node_modules/kind-of": {
+      "extraneous": true
+    },
+    "node_modules/last-run": {
+      "extraneous": true
+    },
+    "node_modules/lazystream": {
+      "extraneous": true
+    },
+    "node_modules/lcid": {
+      "extraneous": true
+    },
+    "node_modules/lead": {
+      "extraneous": true
+    },
+    "node_modules/liftoff": {
+      "extraneous": true
+    },
+    "node_modules/limiter": {
+      "extraneous": true
+    },
+    "node_modules/load-json-file": {
+      "extraneous": true
+    },
+    "node_modules/localtunnel": {
+      "extraneous": true
+    },
+    "node_modules/locate-path": {
+      "extraneous": true
+    },
+    "node_modules/lodash": {
+      "extraneous": true
+    },
+    "node_modules/lodash.isfinite": {
+      "extraneous": true
+    },
+    "node_modules/loud-rejection": {
+      "extraneous": true
+    },
+    "node_modules/lru-cache": {
+      "extraneous": true
+    },
+    "node_modules/make-iterator": {
+      "extraneous": true
+    },
+    "node_modules/map-cache": {
+      "extraneous": true
+    },
+    "node_modules/map-obj": {
+      "extraneous": true
+    },
+    "node_modules/map-visit": {
+      "extraneous": true
+    },
+    "node_modules/matchdep": {
+      "extraneous": true
+    },
+    "node_modules/meow": {
+      "extraneous": true
+    },
+    "node_modules/micromatch": {
+      "extraneous": true
+    },
+    "node_modules/mime": {
+      "extraneous": true
+    },
+    "node_modules/mime-db": {
+      "extraneous": true
+    },
+    "node_modules/mime-types": {
+      "extraneous": true
+    },
+    "node_modules/minimatch": {
+      "extraneous": true
+    },
+    "node_modules/minimist": {
+      "extraneous": true
+    },
+    "node_modules/mitt": {
+      "extraneous": true
+    },
+    "node_modules/mixin-deep": {
+      "extraneous": true
+    },
+    "node_modules/mkdirp": {
+      "extraneous": true
+    },
+    "node_modules/ms": {
+      "extraneous": true
+    },
+    "node_modules/mute-stdout": {
+      "extraneous": true
+    },
+    "node_modules/nan": {
+      "extraneous": true
+    },
+    "node_modules/nanomatch": {
+      "extraneous": true
+    },
+    "node_modules/negotiator": {
+      "extraneous": true
+    },
+    "node_modules/next-tick": {
+      "extraneous": true
+    },
+    "node_modules/node-gyp": {
+      "extraneous": true
+    },
+    "node_modules/node-sass": {
+      "extraneous": true
+    },
+    "node_modules/nopt": {
+      "extraneous": true
+    },
+    "node_modules/normalize-package-data": {
+      "extraneous": true
+    },
+    "node_modules/normalize-path": {
+      "extraneous": true
+    },
+    "node_modules/now-and-later": {
+      "extraneous": true
+    },
+    "node_modules/npmlog": {
+      "extraneous": true
+    },
+    "node_modules/number-is-nan": {
+      "extraneous": true
+    },
+    "node_modules/oauth-sign": {
+      "extraneous": true
+    },
+    "node_modules/object-assign": {
+      "extraneous": true
+    },
+    "node_modules/object-component": {
+      "extraneous": true
+    },
+    "node_modules/object-copy": {
+      "extraneous": true
+    },
+    "node_modules/object-inspect": {
+      "extraneous": true
+    },
+    "node_modules/object-keys": {
+      "extraneous": true
+    },
+    "node_modules/object-visit": {
+      "extraneous": true
+    },
+    "node_modules/object.assign": {
+      "extraneous": true
+    },
+    "node_modules/object.defaults": {
+      "extraneous": true
+    },
+    "node_modules/object.map": {
+      "extraneous": true
+    },
+    "node_modules/object.pick": {
+      "extraneous": true
+    },
+    "node_modules/object.reduce": {
+      "extraneous": true
+    },
+    "node_modules/on-finished": {
+      "extraneous": true
+    },
+    "node_modules/once": {
+      "extraneous": true
+    },
+    "node_modules/openurl": {
+      "extraneous": true
+    },
+    "node_modules/opn": {
+      "extraneous": true
+    },
+    "node_modules/ordered-read-streams": {
+      "extraneous": true
+    },
+    "node_modules/os-homedir": {
+      "extraneous": true
+    },
+    "node_modules/os-locale": {
+      "extraneous": true
+    },
+    "node_modules/osenv": {
+      "extraneous": true
+    },
+    "node_modules/p-limit": {
+      "extraneous": true
+    },
+    "node_modules/p-locate": {
+      "extraneous": true
+    },
+    "node_modules/p-try": {
+      "extraneous": true
+    },
+    "node_modules/parse-filepath": {
+      "extraneous": true
+    },
+    "node_modules/parse-json": {
+      "extraneous": true
+    },
+    "node_modules/parse-node-version": {
+      "extraneous": true
+    },
+    "node_modules/parse-passwd": {
+      "extraneous": true
+    },
+    "node_modules/parseqs": {
+      "extraneous": true
+    },
+    "node_modules/parseuri": {
+      "extraneous": true
+    },
+    "node_modules/parseurl": {
+      "extraneous": true
+    },
+    "node_modules/pascalcase": {
+      "extraneous": true
+    },
+    "node_modules/path-dirname": {
+      "extraneous": true
+    },
+    "node_modules/path-exists": {
+      "extraneous": true
+    },
+    "node_modules/path-is-absolute": {
+      "extraneous": true
+    },
+    "node_modules/path-parse": {
+      "extraneous": true
+    },
+    "node_modules/path-root": {
+      "extraneous": true
+    },
+    "node_modules/path-root-regex": {
+      "extraneous": true
+    },
+    "node_modules/path-type": {
+      "extraneous": true
+    },
+    "node_modules/performance-now": {
+      "extraneous": true
+    },
+    "node_modules/picomatch": {
+      "extraneous": true
+    },
+    "node_modules/pify": {
+      "extraneous": true
+    },
+    "node_modules/pinkie": {
+      "extraneous": true
+    },
+    "node_modules/pinkie-promise": {
+      "extraneous": true
+    },
+    "node_modules/plugin-error": {
+      "extraneous": true
+    },
+    "node_modules/portscanner": {
+      "extraneous": true
+    },
+    "node_modules/posix-character-classes": {
+      "extraneous": true
+    },
+    "node_modules/pretty-hrtime": {
+      "extraneous": true
+    },
+    "node_modules/process-nextick-args": {
+      "extraneous": true
+    },
+    "node_modules/pseudomap": {
+      "extraneous": true
+    },
+    "node_modules/psl": {
+      "extraneous": true
+    },
+    "node_modules/pump": {
+      "extraneous": true
+    },
+    "node_modules/pumpify": {
+      "extraneous": true
+    },
+    "node_modules/punycode": {
+      "extraneous": true
+    },
+    "node_modules/qs": {
+      "extraneous": true
+    },
+    "node_modules/range-parser": {
+      "extraneous": true
+    },
+    "node_modules/raw-body": {
+      "extraneous": true
+    },
+    "node_modules/read-pkg": {
+      "extraneous": true
+    },
+    "node_modules/read-pkg-up": {
+      "extraneous": true
+    },
+    "node_modules/readable-stream": {
+      "extraneous": true
+    },
+    "node_modules/readdirp": {
+      "extraneous": true
+    },
+    "node_modules/rechoir": {
+      "extraneous": true
+    },
+    "node_modules/redent": {
+      "extraneous": true
+    },
+    "node_modules/regex-not": {
+      "extraneous": true
+    },
+    "node_modules/remove-bom-buffer": {
+      "extraneous": true
+    },
+    "node_modules/remove-bom-stream": {
+      "extraneous": true
+    },
+    "node_modules/remove-trailing-separator": {
+      "extraneous": true
+    },
+    "node_modules/repeat-element": {
+      "extraneous": true
+    },
+    "node_modules/repeat-string": {
+      "extraneous": true
+    },
+    "node_modules/repeating": {
+      "extraneous": true
+    },
+    "node_modules/replace-ext": {
+      "extraneous": true
+    },
+    "node_modules/replace-homedir": {
+      "extraneous": true
+    },
+    "node_modules/request": {
+      "extraneous": true
+    },
+    "node_modules/require-directory": {
+      "extraneous": true
+    },
+    "node_modules/require-main-filename": {
+      "extraneous": true
+    },
+    "node_modules/requires-port": {
+      "extraneous": true
+    },
+    "node_modules/resolve": {
+      "extraneous": true
+    },
+    "node_modules/resolve-dir": {
+      "extraneous": true
+    },
+    "node_modules/resolve-options": {
+      "extraneous": true
+    },
+    "node_modules/resolve-url": {
+      "extraneous": true
+    },
+    "node_modules/resp-modifier": {
+      "extraneous": true
+    },
+    "node_modules/rimraf": {
+      "extraneous": true
+    },
+    "node_modules/rx": {
+      "extraneous": true
+    },
+    "node_modules/rxjs": {
+      "extraneous": true
+    },
+    "node_modules/safe-buffer": {
+      "extraneous": true
+    },
+    "node_modules/safe-regex": {
+      "extraneous": true
+    },
+    "node_modules/safer-buffer": {
+      "extraneous": true
+    },
+    "node_modules/sass-graph": {
+      "extraneous": true
+    },
+    "node_modules/scss-tokenizer": {
+      "extraneous": true
+    },
+    "node_modules/semver": {
+      "extraneous": true
+    },
+    "node_modules/semver-greatest-satisfied-range": {
+      "extraneous": true
+    },
+    "node_modules/send": {
+      "extraneous": true
+    },
+    "node_modules/serve-index": {
+      "extraneous": true
+    },
+    "node_modules/serve-static": {
+      "extraneous": true
+    },
+    "node_modules/server-destroy": {
+      "extraneous": true
+    },
+    "node_modules/set-blocking": {
+      "extraneous": true
+    },
+    "node_modules/set-value": {
+      "extraneous": true
+    },
+    "node_modules/setprototypeof": {
+      "extraneous": true
+    },
+    "node_modules/signal-exit": {
+      "extraneous": true
+    },
+    "node_modules/snapdragon": {
+      "extraneous": true
+    },
+    "node_modules/snapdragon-node": {
+      "extraneous": true
+    },
+    "node_modules/snapdragon-util": {
+      "extraneous": true
+    },
+    "node_modules/socket.io": {
+      "extraneous": true
+    },
+    "node_modules/socket.io-adapter": {
+      "extraneous": true
+    },
+    "node_modules/socket.io-client": {
+      "extraneous": true
+    },
+    "node_modules/socket.io-parser": {
+      "extraneous": true
+    },
+    "node_modules/source-map": {
+      "extraneous": true
+    },
+    "node_modules/source-map-resolve": {
+      "extraneous": true
+    },
+    "node_modules/source-map-url": {
+      "extraneous": true
+    },
+    "node_modules/sparkles": {
+      "extraneous": true
+    },
+    "node_modules/spdx-correct": {
+      "extraneous": true
+    },
+    "node_modules/spdx-exceptions": {
+      "extraneous": true
+    },
+    "node_modules/spdx-expression-parse": {
+      "extraneous": true
+    },
+    "node_modules/spdx-license-ids": {
+      "extraneous": true
+    },
+    "node_modules/split-string": {
+      "extraneous": true
+    },
+    "node_modules/stack-trace": {
+      "extraneous": true
+    },
+    "node_modules/static-extend": {
+      "extraneous": true
+    },
+    "node_modules/statuses": {
+      "extraneous": true
+    },
+    "node_modules/stdout-stream": {
+      "extraneous": true
+    },
+    "node_modules/stream-exhaust": {
+      "extraneous": true
+    },
+    "node_modules/stream-shift": {
+      "extraneous": true
+    },
+    "node_modules/stream-throttle": {
+      "extraneous": true
+    },
+    "node_modules/string_decoder": {
+      "extraneous": true
+    },
+    "node_modules/string-width": {
+      "extraneous": true
+    },
+    "node_modules/string.prototype.trimend": {
+      "extraneous": true
+    },
+    "node_modules/string.prototype.trimstart": {
+      "extraneous": true
+    },
+    "node_modules/strip-ansi": {
+      "extraneous": true
+    },
+    "node_modules/strip-bom": {
+      "extraneous": true
+    },
+    "node_modules/strip-indent": {
+      "extraneous": true
+    },
+    "node_modules/supports-color": {
+      "extraneous": true
+    },
+    "node_modules/sver-compat": {
+      "extraneous": true
+    },
+    "node_modules/symbol-observable": {
+      "extraneous": true
+    },
+    "node_modules/tar": {
+      "extraneous": true
+    },
+    "node_modules/tfunk": {
+      "extraneous": true
+    },
+    "node_modules/through2": {
+      "extraneous": true
+    },
+    "node_modules/through2-filter": {
+      "extraneous": true
+    },
+    "node_modules/time-stamp": {
+      "extraneous": true
+    },
+    "node_modules/to-absolute-glob": {
+      "extraneous": true
+    },
+    "node_modules/to-array": {
+      "extraneous": true
+    },
+    "node_modules/to-object-path": {
+      "extraneous": true
+    },
+    "node_modules/to-regex": {
+      "extraneous": true
+    },
+    "node_modules/to-regex-range": {
+      "extraneous": true
+    },
+    "node_modules/to-through": {
+      "extraneous": true
+    },
+    "node_modules/toidentifier": {
+      "extraneous": true
+    },
+    "node_modules/tough-cookie": {
+      "extraneous": true
+    },
+    "node_modules/trim-newlines": {
+      "extraneous": true
+    },
+    "node_modules/true-case-path": {
+      "extraneous": true
+    },
+    "node_modules/tunnel-agent": {
+      "extraneous": true
+    },
+    "node_modules/tweetnacl": {
+      "extraneous": true
+    },
+    "node_modules/type": {
+      "extraneous": true
+    },
+    "node_modules/typedarray": {
+      "extraneous": true
+    },
+    "node_modules/ua-parser-js": {
+      "extraneous": true
+    },
+    "node_modules/ultron": {
+      "extraneous": true
+    },
+    "node_modules/unc-path-regex": {
+      "extraneous": true
+    },
+    "node_modules/undertaker": {
+      "extraneous": true
+    },
+    "node_modules/undertaker-registry": {
+      "extraneous": true
+    },
+    "node_modules/union-value": {
+      "extraneous": true
+    },
+    "node_modules/unique-stream": {
+      "extraneous": true
+    },
+    "node_modules/universalify": {
+      "extraneous": true
+    },
+    "node_modules/unpipe": {
+      "extraneous": true
+    },
+    "node_modules/unset-value": {
+      "extraneous": true
+    },
+    "node_modules/upath": {
+      "extraneous": true
+    },
+    "node_modules/uri-js": {
+      "extraneous": true
+    },
+    "node_modules/urix": {
+      "extraneous": true
+    },
+    "node_modules/use": {
+      "extraneous": true
+    },
+    "node_modules/util-deprecate": {
+      "extraneous": true
+    },
+    "node_modules/utils-merge": {
+      "extraneous": true
+    },
+    "node_modules/uuid": {
+      "extraneous": true
+    },
+    "node_modules/v8flags": {
+      "extraneous": true
+    },
+    "node_modules/validate-npm-package-license": {
+      "extraneous": true
+    },
+    "node_modules/value-or-function": {
+      "extraneous": true
+    },
+    "node_modules/verror": {
+      "extraneous": true
+    },
+    "node_modules/vinyl": {
+      "extraneous": true
+    },
+    "node_modules/vinyl-fs": {
+      "extraneous": true
+    },
+    "node_modules/vinyl-sourcemap": {
+      "extraneous": true
+    },
+    "node_modules/vinyl-sourcemaps-apply": {
+      "extraneous": true
+    },
+    "node_modules/which-module": {
+      "extraneous": true
+    },
+    "node_modules/wide-align": {
+      "extraneous": true
+    },
+    "node_modules/wrap-ansi": {
+      "extraneous": true
+    },
+    "node_modules/wrappy": {
+      "extraneous": true
+    },
+    "node_modules/ws": {
+      "extraneous": true
+    },
+    "node_modules/xmlhttprequest-ssl": {
+      "extraneous": true
+    },
+    "node_modules/xtend": {
+      "extraneous": true
+    },
+    "node_modules/y18n": {
+      "extraneous": true
+    },
+    "node_modules/yallist": {
+      "extraneous": true
+    },
+    "node_modules/yargs": {
+      "extraneous": true
+    },
+    "node_modules/yargs-parser": {
+      "extraneous": true
+    },
+    "node_modules/yeast": {
+      "extraneous": true
+    }
+  },
+  "dependencies": {
+    "abbrev": {
+      "extraneous": true
+    },
+    "accepts": {
+      "extraneous": true
+    },
+    "after": {
+      "extraneous": true
+    },
+    "ajv": {
+      "extraneous": true
+    },
+    "amdefine": {
+      "extraneous": true
+    },
+    "ansi-colors": {
+      "extraneous": true
+    },
+    "ansi-gray": {
+      "extraneous": true
+    },
+    "ansi-regex": {
+      "extraneous": true
+    },
+    "ansi-styles": {
+      "extraneous": true
+    },
+    "ansi-wrap": {
+      "extraneous": true
+    },
+    "anymatch": {
+      "extraneous": true
+    },
+    "append-buffer": {
+      "extraneous": true
+    },
+    "aproba": {
+      "extraneous": true
+    },
+    "archy": {
+      "extraneous": true
+    },
+    "are-we-there-yet": {
+      "extraneous": true
+    },
+    "arr-diff": {
+      "extraneous": true
+    },
+    "arr-filter": {
+      "extraneous": true
+    },
+    "arr-flatten": {
+      "extraneous": true
+    },
+    "arr-map": {
+      "extraneous": true
+    },
+    "arr-union": {
+      "extraneous": true
+    },
+    "array-each": {
+      "extraneous": true
+    },
+    "array-find-index": {
+      "extraneous": true
+    },
+    "array-initial": {
+      "extraneous": true
+    },
+    "array-last": {
+      "extraneous": true
+    },
+    "array-slice": {
+      "extraneous": true
+    },
+    "array-sort": {
+      "extraneous": true
+    },
+    "array-unique": {
+      "extraneous": true
+    },
+    "arraybuffer.slice": {
+      "extraneous": true
+    },
+    "asn1": {
+      "extraneous": true
+    },
+    "assert-plus": {
+      "extraneous": true
+    },
+    "assign-symbols": {
+      "extraneous": true
+    },
+    "async": {
+      "extraneous": true
+    },
+    "async-done": {
+      "extraneous": true
+    },
+    "async-each": {
+      "extraneous": true
+    },
+    "async-each-series": {
+      "extraneous": true
+    },
+    "async-foreach": {
+      "extraneous": true
+    },
+    "async-limiter": {
+      "extraneous": true
+    },
+    "async-settle": {
+      "extraneous": true
+    },
+    "asynckit": {
+      "extraneous": true
+    },
+    "atob": {
+      "extraneous": true
+    },
+    "aws-sign2": {
+      "extraneous": true
+    },
+    "aws4": {
+      "extraneous": true
+    },
+    "axios": {
+      "extraneous": true
+    },
+    "bach": {
+      "extraneous": true
+    },
+    "backo2": {
+      "extraneous": true
+    },
+    "balanced-match": {
+      "extraneous": true
+    },
+    "base": {
+      "extraneous": true
+    },
+    "base64-arraybuffer": {
+      "extraneous": true
+    },
+    "base64id": {
+      "extraneous": true
+    },
+    "batch": {
+      "extraneous": true
+    },
+    "bcrypt-pbkdf": {
+      "extraneous": true
+    },
+    "better-assert": {
+      "extraneous": true
+    },
+    "binary-extensions": {
+      "extraneous": true
+    },
+    "bindings": {
+      "extraneous": true
+    },
+    "blob": {
+      "extraneous": true
+    },
+    "block-stream": {
+      "extraneous": true
+    },
+    "bootstrap": {
+      "extraneous": true
+    },
+    "brace-expansion": {
+      "extraneous": true
+    },
+    "braces": {
+      "extraneous": true
+    },
+    "browser-sync": {
+      "dev": true
+    },
+    "browser-sync-client": {
+      "extraneous": true
+    },
+    "browser-sync-ui": {
+      "extraneous": true
+    },
+    "bs-recipes": {
+      "extraneous": true
+    },
+    "bs-snippet-injector": {
+      "extraneous": true
+    },
+    "buffer-equal": {
+      "extraneous": true
+    },
+    "buffer-from": {
+      "extraneous": true
+    },
+    "bytes": {
+      "extraneous": true
+    },
+    "cache-base": {
+      "extraneous": true
+    },
+    "callsite": {
+      "extraneous": true
+    },
+    "camelcase": {
+      "extraneous": true
+    },
+    "camelcase-keys": {
+      "extraneous": true
+    },
+    "caseless": {
+      "extraneous": true
+    },
+    "chalk": {
+      "extraneous": true
+    },
+    "chokidar": {
+      "extraneous": true
+    },
+    "class-utils": {
+      "extraneous": true
+    },
+    "cliui": {
+      "extraneous": true
+    },
+    "clone": {
+      "extraneous": true
+    },
+    "clone-buffer": {
+      "extraneous": true
+    },
+    "clone-stats": {
+      "extraneous": true
+    },
+    "cloneable-readable": {
+      "extraneous": true
+    },
+    "code-point-at": {
+      "extraneous": true
+    },
+    "collection-map": {
+      "extraneous": true
+    },
+    "collection-visit": {
+      "extraneous": true
+    },
+    "color-convert": {
+      "extraneous": true
+    },
+    "color-name": {
+      "extraneous": true
+    },
+    "color-support": {
+      "extraneous": true
+    },
+    "combined-stream": {
+      "extraneous": true
+    },
+    "commander": {
+      "extraneous": true
+    },
+    "component-bind": {
+      "extraneous": true
+    },
+    "component-emitter": {
+      "extraneous": true
+    },
+    "component-inherit": {
+      "extraneous": true
+    },
+    "concat-map": {
+      "extraneous": true
+    },
+    "concat-stream": {
+      "extraneous": true
+    },
+    "connect": {
+      "extraneous": true
+    },
+    "connect-history-api-fallback": {
+      "extraneous": true
+    },
+    "console-control-strings": {
+      "extraneous": true
+    },
+    "convert-source-map": {
+      "extraneous": true
+    },
+    "cookie": {
+      "extraneous": true
+    },
+    "copy-descriptor": {
+      "extraneous": true
+    },
+    "copy-props": {
+      "extraneous": true
+    },
+    "core-util-is": {
+      "extraneous": true
+    },
+    "cross-spawn": {
+      "extraneous": true
+    },
+    "currently-unhandled": {
+      "extraneous": true
+    },
+    "d": {
+      "extraneous": true
+    },
+    "dashdash": {
+      "extraneous": true
+    },
+    "debug": {
+      "extraneous": true
+    },
+    "decamelize": {
+      "extraneous": true
+    },
+    "decode-uri-component": {
+      "extraneous": true
+    },
+    "default-compare": {
+      "extraneous": true
+    },
+    "default-resolution": {
+      "extraneous": true
+    },
+    "define-properties": {
+      "extraneous": true
+    },
+    "define-property": {
+      "extraneous": true
+    },
+    "delayed-stream": {
+      "extraneous": true
+    },
+    "delegates": {
+      "extraneous": true
+    },
+    "depd": {
+      "extraneous": true
+    },
+    "destroy": {
+      "extraneous": true
+    },
+    "detect-file": {
+      "extraneous": true
+    },
+    "dev-ip": {
+      "extraneous": true
+    },
+    "dlv": {
+      "extraneous": true
+    },
+    "duplexify": {
+      "extraneous": true
+    },
+    "each-props": {
+      "extraneous": true
+    },
+    "easy-extender": {
+      "extraneous": true
+    },
+    "eazy-logger": {
+      "extraneous": true
+    },
+    "ecc-jsbn": {
+      "extraneous": true
+    },
+    "ee-first": {
+      "extraneous": true
+    },
+    "emoji-regex": {
+      "extraneous": true
+    },
+    "encodeurl": {
+      "extraneous": true
+    },
+    "end-of-stream": {
+      "extraneous": true
+    },
+    "engine.io": {
+      "extraneous": true
+    },
+    "engine.io-client": {
+      "extraneous": true
+    },
+    "engine.io-parser": {
+      "extraneous": true
+    },
+    "error-ex": {
+      "extraneous": true
+    },
+    "es-abstract": {
+      "extraneous": true
+    },
+    "es-to-primitive": {
+      "extraneous": true
+    },
+    "es5-ext": {
+      "extraneous": true
+    },
+    "es6-iterator": {
+      "extraneous": true
+    },
+    "es6-symbol": {
+      "extraneous": true
+    },
+    "es6-weak-map": {
+      "extraneous": true
+    },
+    "escape-html": {
+      "extraneous": true
+    },
+    "escape-string-regexp": {
+      "extraneous": true
+    },
+    "etag": {
+      "extraneous": true
+    },
+    "eventemitter3": {
+      "extraneous": true
+    },
+    "expand-brackets": {
+      "extraneous": true
+    },
+    "expand-tilde": {
+      "extraneous": true
+    },
+    "ext": {
+      "extraneous": true
+    },
+    "extend": {
+      "extraneous": true
+    },
+    "extend-shallow": {
+      "extraneous": true
+    },
+    "extglob": {
+      "extraneous": true
+    },
+    "extsprintf": {
+      "extraneous": true
+    },
+    "fancy-log": {
+      "extraneous": true
+    },
+    "fast-deep-equal": {
+      "extraneous": true
+    },
+    "fast-json-stable-stringify": {
+      "extraneous": true
+    },
+    "fast-levenshtein": {
+      "extraneous": true
+    },
+    "file-uri-to-path": {
+      "extraneous": true
+    },
+    "fill-range": {
+      "extraneous": true
+    },
+    "finalhandler": {
+      "extraneous": true
+    },
+    "find-up": {
+      "extraneous": true
+    },
+    "findup-sync": {
+      "extraneous": true
+    },
+    "fined": {
+      "extraneous": true
+    },
+    "flagged-respawn": {
+      "extraneous": true
+    },
+    "flush-write-stream": {
+      "extraneous": true
+    },
+    "follow-redirects": {
+      "extraneous": true
+    },
+    "for-in": {
+      "extraneous": true
+    },
+    "for-own": {
+      "extraneous": true
+    },
+    "forever-agent": {
+      "extraneous": true
+    },
+    "form-data": {
+      "extraneous": true
+    },
+    "fragment-cache": {
+      "extraneous": true
+    },
+    "fresh": {
+      "extraneous": true
+    },
+    "fs-extra": {
+      "extraneous": true
+    },
+    "fs-mkdirp-stream": {
+      "extraneous": true
+    },
+    "fs.realpath": {
+      "extraneous": true
+    },
+    "fsevents": {
+      "extraneous": true
+    },
+    "fstream": {
+      "extraneous": true
+    },
+    "function-bind": {
+      "extraneous": true
+    },
+    "gauge": {
+      "extraneous": true
+    },
+    "gaze": {
+      "extraneous": true
+    },
+    "get-caller-file": {
+      "extraneous": true
+    },
+    "get-stdin": {
+      "extraneous": true
+    },
+    "get-value": {
+      "extraneous": true
+    },
+    "getpass": {
+      "extraneous": true
+    },
+    "glob": {
+      "extraneous": true
+    },
+    "glob-parent": {
+      "extraneous": true
+    },
+    "glob-stream": {
+      "extraneous": true
+    },
+    "glob-watcher": {
+      "extraneous": true
+    },
+    "global-modules": {
+      "extraneous": true
+    },
+    "global-prefix": {
+      "extraneous": true
+    },
+    "globule": {
+      "extraneous": true
+    },
+    "glogg": {
+      "extraneous": true
+    },
+    "graceful-fs": {
+      "extraneous": true
+    },
+    "gulp": {
+      "dev": true
+    },
+    "gulp-sass": {
+      "dev": true
+    },
+    "gulplog": {
+      "extraneous": true
+    },
+    "har-schema": {
+      "extraneous": true
+    },
+    "har-validator": {
+      "extraneous": true
+    },
+    "has": {
+      "extraneous": true
+    },
+    "has-ansi": {
+      "extraneous": true
+    },
+    "has-binary2": {
+      "extraneous": true
+    },
+    "has-cors": {
+      "extraneous": true
+    },
+    "has-flag": {
+      "extraneous": true
+    },
+    "has-symbols": {
+      "extraneous": true
+    },
+    "has-unicode": {
+      "extraneous": true
+    },
+    "has-value": {
+      "extraneous": true
+    },
+    "has-values": {
+      "extraneous": true
+    },
+    "homedir-polyfill": {
+      "extraneous": true
+    },
+    "hosted-git-info": {
+      "extraneous": true
+    },
+    "http-errors": {
+      "extraneous": true
+    },
+    "http-proxy": {
+      "extraneous": true
+    },
+    "http-signature": {
+      "extraneous": true
+    },
+    "iconv-lite": {
+      "extraneous": true
+    },
+    "immutable": {
+      "extraneous": true
+    },
+    "in-publish": {
+      "extraneous": true
+    },
+    "indent-string": {
+      "extraneous": true
+    },
+    "indexof": {
+      "extraneous": true
+    },
+    "inflight": {
+      "extraneous": true
+    },
+    "inherits": {
+      "extraneous": true
+    },
+    "ini": {
+      "extraneous": true
+    },
+    "interpret": {
+      "extraneous": true
+    },
+    "invert-kv": {
+      "extraneous": true
+    },
+    "is-absolute": {
+      "extraneous": true
+    },
+    "is-accessor-descriptor": {
+      "extraneous": true
+    },
+    "is-arrayish": {
+      "extraneous": true
+    },
+    "is-binary-path": {
+      "extraneous": true
+    },
+    "is-buffer": {
+      "extraneous": true
+    },
+    "is-callable": {
+      "extraneous": true
+    },
+    "is-core-module": {
+      "extraneous": true
+    },
+    "is-data-descriptor": {
+      "extraneous": true
+    },
+    "is-date-object": {
+      "extraneous": true
+    },
+    "is-descriptor": {
+      "extraneous": true
+    },
+    "is-extendable": {
+      "extraneous": true
+    },
+    "is-extglob": {
+      "extraneous": true
+    },
+    "is-finite": {
+      "extraneous": true
+    },
+    "is-fullwidth-code-point": {
+      "extraneous": true
+    },
+    "is-glob": {
+      "extraneous": true
+    },
+    "is-negated-glob": {
+      "extraneous": true
+    },
+    "is-negative-zero": {
+      "extraneous": true
+    },
+    "is-number": {
+      "extraneous": true
+    },
+    "is-number-like": {
+      "extraneous": true
+    },
+    "is-plain-object": {
+      "extraneous": true
+    },
+    "is-regex": {
+      "extraneous": true
+    },
+    "is-relative": {
+      "extraneous": true
+    },
+    "is-symbol": {
+      "extraneous": true
+    },
+    "is-typedarray": {
+      "extraneous": true
+    },
+    "is-unc-path": {
+      "extraneous": true
+    },
+    "is-utf8": {
+      "extraneous": true
+    },
+    "is-valid-glob": {
+      "extraneous": true
+    },
+    "is-windows": {
+      "extraneous": true
+    },
+    "is-wsl": {
+      "extraneous": true
+    },
+    "isarray": {
+      "extraneous": true
+    },
+    "isexe": {
+      "extraneous": true
+    },
+    "isobject": {
+      "extraneous": true
+    },
+    "isstream": {
+      "extraneous": true
+    },
+    "js-base64": {
+      "extraneous": true
+    },
+    "jsbn": {
+      "extraneous": true
+    },
+    "json-schema": {
+      "extraneous": true
+    },
+    "json-schema-traverse": {
+      "extraneous": true
+    },
+    "json-stable-stringify-without-jsonify": {
+      "extraneous": true
+    },
+    "json-stringify-safe": {
+      "extraneous": true
+    },
+    "jsonfile": {
+      "extraneous": true
+    },
+    "jsprim": {
+      "extraneous": true
+    },
+    "just-debounce": {
+      "extraneous": true
+    },
+    "kind-of": {
+      "extraneous": true
+    },
+    "last-run": {
+      "extraneous": true
+    },
+    "lazystream": {
+      "extraneous": true
+    },
+    "lcid": {
+      "extraneous": true
+    },
+    "lead": {
+      "extraneous": true
+    },
+    "liftoff": {
+      "extraneous": true
+    },
+    "limiter": {
+      "extraneous": true
+    },
+    "load-json-file": {
+      "extraneous": true
+    },
+    "localtunnel": {
+      "extraneous": true
+    },
+    "locate-path": {
+      "extraneous": true
+    },
+    "lodash": {
+      "extraneous": true
+    },
+    "lodash.isfinite": {
+      "extraneous": true
+    },
+    "loud-rejection": {
+      "extraneous": true
+    },
+    "lru-cache": {
+      "extraneous": true
+    },
+    "make-iterator": {
+      "extraneous": true
+    },
+    "map-cache": {
+      "extraneous": true
+    },
+    "map-obj": {
+      "extraneous": true
+    },
+    "map-visit": {
+      "extraneous": true
+    },
+    "matchdep": {
+      "extraneous": true
+    },
+    "meow": {
+      "extraneous": true
+    },
+    "micromatch": {
+      "extraneous": true
+    },
+    "mime": {
+      "extraneous": true
+    },
+    "mime-db": {
+      "extraneous": true
+    },
+    "mime-types": {
+      "extraneous": true
+    },
+    "minimatch": {
+      "extraneous": true
+    },
+    "minimist": {
+      "extraneous": true
+    },
+    "mitt": {
+      "extraneous": true
+    },
+    "mixin-deep": {
+      "extraneous": true
+    },
+    "mkdirp": {
+      "extraneous": true
+    },
+    "ms": {
+      "extraneous": true
+    },
+    "mute-stdout": {
+      "extraneous": true
+    },
+    "nan": {
+      "extraneous": true
+    },
+    "nanomatch": {
+      "extraneous": true
+    },
+    "negotiator": {
+      "extraneous": true
+    },
+    "next-tick": {
+      "extraneous": true
+    },
+    "node-gyp": {
+      "extraneous": true
+    },
+    "node-sass": {
+      "extraneous": true
+    },
+    "nopt": {
+      "extraneous": true
+    },
+    "normalize-package-data": {
+      "extraneous": true
+    },
+    "normalize-path": {
+      "extraneous": true
+    },
+    "now-and-later": {
+      "extraneous": true
+    },
+    "npmlog": {
+      "extraneous": true
+    },
+    "number-is-nan": {
+      "extraneous": true
+    },
+    "oauth-sign": {
+      "extraneous": true
+    },
+    "object-assign": {
+      "extraneous": true
+    },
+    "object-component": {
+      "extraneous": true
+    },
+    "object-copy": {
+      "extraneous": true
+    },
+    "object-inspect": {
+      "extraneous": true
+    },
+    "object-keys": {
+      "extraneous": true
+    },
+    "object-visit": {
+      "extraneous": true
+    },
+    "object.assign": {
+      "extraneous": true
+    },
+    "object.defaults": {
+      "extraneous": true
+    },
+    "object.map": {
+      "extraneous": true
+    },
+    "object.pick": {
+      "extraneous": true
+    },
+    "object.reduce": {
+      "extraneous": true
+    },
+    "on-finished": {
+      "extraneous": true
+    },
+    "once": {
+      "extraneous": true
+    },
+    "openurl": {
+      "extraneous": true
+    },
+    "opn": {
+      "extraneous": true
+    },
+    "ordered-read-streams": {
+      "extraneous": true
+    },
+    "os-homedir": {
+      "extraneous": true
+    },
+    "os-locale": {
+      "extraneous": true
+    },
+    "osenv": {
+      "extraneous": true
+    },
+    "p-limit": {
+      "extraneous": true
+    },
+    "p-locate": {
+      "extraneous": true
+    },
+    "p-try": {
+      "extraneous": true
+    },
+    "parse-filepath": {
+      "extraneous": true
+    },
+    "parse-json": {
+      "extraneous": true
+    },
+    "parse-node-version": {
+      "extraneous": true
+    },
+    "parse-passwd": {
+      "extraneous": true
+    },
+    "parseqs": {
+      "extraneous": true
+    },
+    "parseuri": {
+      "extraneous": true
+    },
+    "parseurl": {
+      "extraneous": true
+    },
+    "pascalcase": {
+      "extraneous": true
+    },
+    "path-dirname": {
+      "extraneous": true
+    },
+    "path-exists": {
+      "extraneous": true
+    },
+    "path-is-absolute": {
+      "extraneous": true
+    },
+    "path-parse": {
+      "extraneous": true
+    },
+    "path-root": {
+      "extraneous": true
+    },
+    "path-root-regex": {
+      "extraneous": true
+    },
+    "path-type": {
+      "extraneous": true
+    },
+    "performance-now": {
+      "extraneous": true
+    },
+    "picomatch": {
+      "extraneous": true
+    },
+    "pify": {
+      "extraneous": true
+    },
+    "pinkie": {
+      "extraneous": true
+    },
+    "pinkie-promise": {
+      "extraneous": true
+    },
+    "plugin-error": {
+      "extraneous": true
+    },
+    "portscanner": {
+      "extraneous": true
+    },
+    "posix-character-classes": {
+      "extraneous": true
+    },
+    "pretty-hrtime": {
+      "extraneous": true
+    },
+    "process-nextick-args": {
+      "extraneous": true
+    },
+    "pseudomap": {
+      "extraneous": true
+    },
+    "psl": {
+      "extraneous": true
+    },
+    "pump": {
+      "extraneous": true
+    },
+    "pumpify": {
+      "extraneous": true
+    },
+    "punycode": {
+      "extraneous": true
+    },
+    "qs": {
+      "extraneous": true
+    },
+    "range-parser": {
+      "extraneous": true
+    },
+    "raw-body": {
+      "extraneous": true
+    },
+    "read-pkg": {
+      "extraneous": true
+    },
+    "read-pkg-up": {
+      "extraneous": true
+    },
+    "readable-stream": {
+      "extraneous": true
+    },
+    "readdirp": {
+      "extraneous": true
+    },
+    "rechoir": {
+      "extraneous": true
+    },
+    "redent": {
+      "extraneous": true
+    },
+    "regex-not": {
+      "extraneous": true
+    },
+    "remove-bom-buffer": {
+      "extraneous": true
+    },
+    "remove-bom-stream": {
+      "extraneous": true
+    },
+    "remove-trailing-separator": {
+      "extraneous": true
+    },
+    "repeat-element": {
+      "extraneous": true
+    },
+    "repeat-string": {
+      "extraneous": true
+    },
+    "repeating": {
+      "extraneous": true
+    },
+    "replace-ext": {
+      "extraneous": true
+    },
+    "replace-homedir": {
+      "extraneous": true
+    },
+    "request": {
+      "extraneous": true
+    },
+    "require-directory": {
+      "extraneous": true
+    },
+    "require-main-filename": {
+      "extraneous": true
+    },
+    "requires-port": {
+      "extraneous": true
+    },
+    "resolve": {
+      "extraneous": true
+    },
+    "resolve-dir": {
+      "extraneous": true
+    },
+    "resolve-options": {
+      "extraneous": true
+    },
+    "resolve-url": {
+      "extraneous": true
+    },
+    "resp-modifier": {
+      "extraneous": true
+    },
+    "rimraf": {
+      "extraneous": true
+    },
+    "rx": {
+      "extraneous": true
+    },
+    "rxjs": {
+      "extraneous": true
+    },
+    "safe-buffer": {
+      "extraneous": true
+    },
+    "safe-regex": {
+      "extraneous": true
+    },
+    "safer-buffer": {
+      "extraneous": true
+    },
+    "sass-graph": {
+      "extraneous": true
+    },
+    "scss-tokenizer": {
+      "extraneous": true
+    },
+    "semver": {
+      "extraneous": true
+    },
+    "semver-greatest-satisfied-range": {
+      "extraneous": true
+    },
+    "send": {
+      "extraneous": true
+    },
+    "serve-index": {
+      "extraneous": true
+    },
+    "serve-static": {
+      "extraneous": true
+    },
+    "server-destroy": {
+      "extraneous": true
+    },
+    "set-blocking": {
+      "extraneous": true
+    },
+    "set-value": {
+      "extraneous": true
+    },
+    "setprototypeof": {
+      "extraneous": true
+    },
+    "signal-exit": {
+      "extraneous": true
+    },
+    "snapdragon": {
+      "extraneous": true
+    },
+    "snapdragon-node": {
+      "extraneous": true
+    },
+    "snapdragon-util": {
+      "extraneous": true
+    },
+    "socket.io": {
+      "extraneous": true
+    },
+    "socket.io-adapter": {
+      "extraneous": true
+    },
+    "socket.io-client": {
+      "extraneous": true
+    },
+    "socket.io-parser": {
+      "extraneous": true
+    },
+    "source-map": {
+      "extraneous": true
+    },
+    "source-map-resolve": {
+      "extraneous": true
+    },
+    "source-map-url": {
+      "extraneous": true
+    },
+    "sparkles": {
+      "extraneous": true
+    },
+    "spdx-correct": {
+      "extraneous": true
+    },
+    "spdx-exceptions": {
+      "extraneous": true
+    },
+    "spdx-expression-parse": {
+      "extraneous": true
+    },
+    "spdx-license-ids": {
+      "extraneous": true
+    },
+    "split-string": {
+      "extraneous": true
+    },
+    "stack-trace": {
+      "extraneous": true
+    },
+    "static-extend": {
+      "extraneous": true
+    },
+    "statuses": {
+      "extraneous": true
+    },
+    "stdout-stream": {
+      "extraneous": true
+    },
+    "stream-exhaust": {
+      "extraneous": true
+    },
+    "stream-shift": {
+      "extraneous": true
+    },
+    "stream-throttle": {
+      "extraneous": true
+    },
+    "string_decoder": {
+      "extraneous": true
+    },
+    "string-width": {
+      "extraneous": true
+    },
+    "string.prototype.trimend": {
+      "extraneous": true
+    },
+    "string.prototype.trimstart": {
+      "extraneous": true
+    },
+    "strip-ansi": {
+      "extraneous": true
+    },
+    "strip-bom": {
+      "extraneous": true
+    },
+    "strip-indent": {
+      "extraneous": true
+    },
+    "supports-color": {
+      "extraneous": true
+    },
+    "sver-compat": {
+      "extraneous": true
+    },
+    "symbol-observable": {
+      "extraneous": true
+    },
+    "tar": {
+      "extraneous": true
+    },
+    "tfunk": {
+      "extraneous": true
+    },
+    "through2": {
+      "extraneous": true
+    },
+    "through2-filter": {
+      "extraneous": true
+    },
+    "time-stamp": {
+      "extraneous": true
+    },
+    "to-absolute-glob": {
+      "extraneous": true
+    },
+    "to-array": {
+      "extraneous": true
+    },
+    "to-object-path": {
+      "extraneous": true
+    },
+    "to-regex": {
+      "extraneous": true
+    },
+    "to-regex-range": {
+      "extraneous": true
+    },
+    "to-through": {
+      "extraneous": true
+    },
+    "toidentifier": {
+      "extraneous": true
+    },
+    "tough-cookie": {
+      "extraneous": true
+    },
+    "trim-newlines": {
+      "extraneous": true
+    },
+    "true-case-path": {
+      "extraneous": true
+    },
+    "tunnel-agent": {
+      "extraneous": true
+    },
+    "tweetnacl": {
+      "extraneous": true
+    },
+    "type": {
+      "extraneous": true
+    },
+    "typedarray": {
+      "extraneous": true
+    },
+    "ua-parser-js": {
+      "extraneous": true
+    },
+    "ultron": {
+      "extraneous": true
+    },
+    "unc-path-regex": {
+      "extraneous": true
+    },
+    "undertaker": {
+      "extraneous": true
+    },
+    "undertaker-registry": {
+      "extraneous": true
+    },
+    "union-value": {
+      "extraneous": true
+    },
+    "unique-stream": {
+      "extraneous": true
+    },
+    "universalify": {
+      "extraneous": true
+    },
+    "unpipe": {
+      "extraneous": true
+    },
+    "unset-value": {
+      "extraneous": true
+    },
+    "upath": {
+      "extraneous": true
+    },
+    "uri-js": {
+      "extraneous": true
+    },
+    "urix": {
+      "extraneous": true
+    },
+    "use": {
+      "extraneous": true
+    },
+    "util-deprecate": {
+      "extraneous": true
+    },
+    "utils-merge": {
+      "extraneous": true
+    },
+    "uuid": {
+      "extraneous": true
+    },
+    "v8flags": {
+      "extraneous": true
+    },
+    "validate-npm-package-license": {
+      "extraneous": true
+    },
+    "value-or-function": {
+      "extraneous": true
+    },
+    "verror": {
+      "extraneous": true
+    },
+    "vinyl": {
+      "extraneous": true
+    },
+    "vinyl-fs": {
+      "extraneous": true
+    },
+    "vinyl-sourcemap": {
+      "extraneous": true
+    },
+    "vinyl-sourcemaps-apply": {
+      "extraneous": true
+    },
+    "which-module": {
+      "extraneous": true
+    },
+    "wide-align": {
+      "extraneous": true
+    },
+    "wrap-ansi": {
+      "extraneous": true
+    },
+    "wrappy": {
+      "extraneous": true
+    },
+    "ws": {
+      "extraneous": true
+    },
+    "xmlhttprequest-ssl": {
+      "extraneous": true
+    },
+    "xtend": {
+      "extraneous": true
+    },
+    "y18n": {
+      "extraneous": true
+    },
+    "yallist": {
+      "extraneous": true
+    },
+    "yargs": {
+      "extraneous": true
+    },
+    "yargs-parser": {
+      "extraneous": true
+    },
+    "yeast": {
+      "extraneous": true
+    }
+  }
+}
