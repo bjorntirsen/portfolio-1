@@ -494,7 +494,7 @@ progress {
 
 @media (min-width: 1400px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    max-width: 1320px; } }
+    max-width: 2400px; } }
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -7235,3 +7235,11 @@ progress {
   height: 100%;
   position: relative;
   padding-top: 25px !important; }
+
+@media only screen and (min-width: 751px) and (max-width: 1080px) {
+  #my_container {
+    max-width: 1000px; } }
+
+@media only screen and (min-width: 1081px) {
+  #my_container {
+    max-width: 1200px; } }

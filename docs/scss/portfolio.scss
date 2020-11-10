@@ -83,3 +83,15 @@
     position:relative;
     padding-top: 25px!important;
 }
+
+@media only screen and (min-width:751px) and (max-width: 1080px) {
+    #my_container {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (min-width:1081px) {
+    #my_container {
+        max-width: 1200px;
+    }
+}

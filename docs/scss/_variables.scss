@@ -7,3 +7,11 @@ $success: #8A7992;
 $font-family-sans-serif: 'Source Sans Pro', sans-serif !default;
 
 $font-family-monospace: 'Merriweather', serif !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 2400px
+);

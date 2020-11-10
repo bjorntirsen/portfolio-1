@@ -494,7 +494,7 @@ progress {
 
 @media (min-width: 1400px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    max-width: 1320px; } }
+    max-width: 2400px; } }
 
 .row {
   --bs-gutter-x: 1.5rem;
