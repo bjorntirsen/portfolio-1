@@ -7394,7 +7394,14 @@ body {
     flex-direction: row;
     align-items: center; }
   #aside img {
-    width: 75%; } }
+    width: 75%; }
+  #footer > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    #footer > section section {
+      display: flex;
+      flex-direction: row; } }
 
 @media only screen and (min-width: 1081px) {
   #grid_container {
@@ -7408,22 +7415,19 @@ body {
   #footer > section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 0 auto; }
+    justify-content: center; }
     #footer > section section {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin: 0 auto;
-      align-self: bottom !important; }
-      #footer > section section p {
-        padding: 0;
-        margin: 0 10px;
-        align-self: bottom !important; }
-      #footer > section section h3, #footer > section section .h3 {
-        align-self: bottom !important; } }
+      flex-direction: row; } }
 
 @media only screen and (min-width: 1500px) {
   #grid_container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "aside main main main ." ". content1 content2 content3 ." "footer footer footer footer footer"; } }
+    grid-template-areas: "aside main main main ." ". content1 content2 content3 ." "footer footer footer footer footer"; }
+  #footer > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    #footer > section section {
+      display: flex;
+      flex-direction: row; } }
