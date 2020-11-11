@@ -119,6 +119,13 @@ body {
     grid-area: main;
 }
 
+#img_main {
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #content1 {
     grid-area: content1;
 }
@@ -136,8 +143,7 @@ body {
     bottom: 0;
 }
 
-/* index.html styling */
-
+/* Landing Page styling */
 /* Solved the unintentional scrolling with pos rel */
 #landing_outer_tile {
     height: 100vh;
