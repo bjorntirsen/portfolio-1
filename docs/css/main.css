@@ -1,3 +1,28 @@
+/* Importing my other SCSS */
+/* Mixins */
+/* Animations */
+.zoom {
+  transform: scale(1.1);
+  animation: zoom 2s;
+  animation-fill-mode: forwards; }
+
+@keyframes zoom {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.1); } }
+
+.fade-in {
+  animation: fadein 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/* Importing Bootstrap 5 SCSS */
 /*!
  * Bootstrap v5.0.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7177,53 +7202,178 @@ progress {
   .d-print-none {
     display: none !important; } }
 
-/* Wrapper Styling */
-.wrapper2 {
-  position: relative;
+/* My own CSS classes */
+.link-unstyled, .link-unstyled:visited, .link-unstyled:hover, .link-unstyled:active, .link-unstyled:focus, .link-unstyled:active:hover {
+  font-style: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: inherit;
+  text-decoration: none;
+  font-variant: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  border-radius: inherit;
+  border: inherit;
+  outline: inherit;
+  box-shadow: inherit; }
+
+.background {
+  background-image: url("../images/nackademin_w2560.jpg");
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
 
-.content {
-  background-color: transparent; }
+.bg {
+  background-image: url("../images/autumn_road_w640.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0; }
 
-/* Animations */
-.zoom {
-  transform: scale(1.1);
-  animation: zoom 2s;
-  animation-fill-mode: forwards; }
+/* Using nested selectors for this class */
+.my_container {
+  background-color: white;
+  margin: 10px;
+  text-align: center; }
+  .my_container p {
+    padding: 0 15%; }
+  .my_container ul {
+    margin-left: 5%;
+    text-align: left; }
+  .my_container img {
+    width: 90%;
+    margin: 20px; }
+  .my_container h2, .my_container .h2, .my_container h3, .my_container .h3 {
+    background-color: #F7F7F7;
+    padding: 10px; }
 
-@keyframes zoom {
-  from {
-    transform: scale(1); }
-  to {
-    transform: scale(1.1); } }
+.card {
+  border: none; }
 
-.fade-in {
-  animation: fadein 1s;
-  animation-fill-mode: forwards; }
+/* Styling for elements by ID */
+#grid_container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "aside" "main" "content1" "content2" "content3" "footer"; }
 
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
+#background {
+  background-image: url("../images/autumn_w2400.jpg");
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
 
-.slow-fade {
-  animation: slowfade 1s;
-  animation-fill-mode: forwards; }
+#outer-tile {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+  padding-top: 56px !important; }
 
-@keyframes slowfade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
+#aside {
+  grid-area: aside; }
+  #aside article {
+    display: flex;
+    flex-direction: column; }
+  #aside img {
+    width: 50%; }
 
-.slow-fade85 {
-  animation: slowfade85 1s;
-  animation-fill-mode: forwards; }
+#main {
+  grid-area: main; }
 
-@keyframes slowfade85 {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 0.85; } }
+#content1 {
+  grid-area: content1; }
+
+#content2 {
+  grid-area: content2; }
+
+#content3 {
+  grid-area: content3; }
+
+#footer {
+  grid-area: footer;
+  bottom: 0; }
+
+/* index.html styling */
+#landing_outer_tile {
+  height: 100vh; }
+
+#landing_main {
+  max-width: 696px; }
+  #landing_main img {
+    width: 75%; }
+
+/* Media Queries for Tablet and Desktop */
+/* Landing page */
+@media only screen and (min-width: 400px) and (max-width: 1400px) {
+  .bg {
+    background-image: url("../images/autumn_road_w1400.jpg"); } }
+
+@media only screen and (min-width: 1401px) {
+  .bg {
+    background-image: url("../images/autumn_road_w2057.jpg"); } }
+
+@media only screen and (min-width: 400px) and (max-width: 750px) {
+  #aside article {
+    flex-direction: row;
+    align-items: center; }
+  #aside img {
+    width: 85%; } }
+
+@media only screen and (min-width: 751px) and (max-width: 1080px) {
+  #grid_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "aside aside aside" "main main main" "content1 content2 content3" "footer footer footer"; }
+  #aside article {
+    flex-direction: row;
+    align-items: center; }
+  #aside img {
+    width: 75%; } }
+
+@media only screen and (min-width: 1081px) {
+  #grid_container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "aside main main main" ". content1 content2 content3" "footer footer footer footer"; }
+  #aside article {
+    flex-direction: column;
+    align-items: center; }
+  #aside img {
+    width: 50%; }
+  #footer > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto; }
+    #footer > section section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0 auto;
+      align-self: bottom !important; }
+      #footer > section section p {
+        padding: 0;
+        margin: 0 10px;
+        align-self: bottom !important; }
+      #footer > section section h3, #footer > section section .h3 {
+        align-self: bottom !important; } }
+
+@media only screen and (min-width: 1500px) {
+  #grid_container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "aside main main main ." ". content1 content2 content3 ." "footer footer footer footer footer"; } }

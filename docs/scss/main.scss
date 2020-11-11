@@ -34,6 +34,17 @@
     background-image: url("../images/nackademin_w2560.jpg");
     @include background;
 }
+
+.bg {
+    background-image: url("../images/autumn_road_w640.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
 /* Using nested selectors for this class */
 .my_container {
     background-color: white;
@@ -118,7 +129,32 @@
     bottom: 0;
 }
 
+/* index.html styling */
+#landing_outer_tile {
+    height: 100vh;
+}
+
+#landing_main {
+    max-width: 696px;
+    img {
+        width: 75%;
+    }
+}
+
 /* Media Queries for Tablet and Desktop */
+/* Landing page */
+@media only screen and (min-width: 400px) and (max-width: 1400px) {
+    .bg {
+      background-image: url('../images/autumn_road_w1400.jpg');
+    }
+}
+
+@media only screen and (min-width: 1401px) {
+    .bg {
+      background-image: url('../images/autumn_road_w2057.jpg');
+    }
+}
+
 @media only screen and (min-width: 400px) and (max-width: 750px) {
     #aside {        
         article {
