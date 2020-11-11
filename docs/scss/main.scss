@@ -6,7 +6,12 @@
 /* Importing Bootstrap 5 SCSS */
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-/* My own CSS classes */
+/* element styling */
+body {
+    background-color: black;
+}
+
+/* CSS classes */
 .link-unstyled {
     &,
     &:visited,
@@ -130,30 +135,51 @@
 }
 
 /* index.html styling */
+
+/* Solved the unintentional scrolling with pos rel */
 #landing_outer_tile {
     height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
 #landing_main {
+    width: 90%;
     max-width: 696px;
+    background-color: $light_transparent!important;
     img {
         width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 /* Media Queries for Tablet and Desktop */
 /* Landing page */
-@media only screen and (min-width: 400px) and (max-width: 1400px) {
-    .bg {
-      background-image: url('../images/autumn_road_w1400.jpg');
+#landing_background {
+    background-image: url("../images/autumn_road_w640.jpg");
+    @include background;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1400px) {
+    #landing_background {
+        background-image: url("../images/autumn_road_w1400.jpg");
+        @include background;
+        overflow: hidden;
     }
 }
 
 @media only screen and (min-width: 1401px) {
-    .bg {
-      background-image: url('../images/autumn_road_w2057.jpg');
+    #landing_background {
+        background-image: url("../images/autumn_road_w2057.jpg");
+        @include background;
+        overflow: hidden;
     }
 }
+
+/* Portfolio page */
 
 @media only screen and (min-width: 400px) and (max-width: 750px) {
     #aside {        
