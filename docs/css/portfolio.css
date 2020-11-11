@@ -7237,6 +7237,9 @@ progress {
   grid-template-columns: 1fr;
   grid-template-areas: "aside" "main" "content1" "content2" "content3" "footer"; }
 
+.card {
+  border: none; }
+
 /* Nested Selectors */
 .my_container {
   background-color: white;
@@ -7248,7 +7251,8 @@ progress {
     margin-left: 5%;
     text-align: left; }
   .my_container img {
-    width: 90%; }
+    width: 90%;
+    margin: 20px; }
   .my_container h2, .my_container .h2, .my_container h3, .my_container .h3 {
     background-color: #F7F7F7;
     padding: 10px; }
@@ -7298,12 +7302,12 @@ progress {
   bottom: 0; }
 
 /* Media Queries for Tablet and Desktop */
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 400px) and (max-width: 750px) {
   #aside article {
     flex-direction: row;
     align-items: center; }
   #aside img {
-    width: 100%; } }
+    width: 85%; } }
 
 @media only screen and (min-width: 751px) and (max-width: 1080px) {
   #grid_container {
@@ -7313,7 +7317,7 @@ progress {
     flex-direction: row;
     align-items: center; }
   #aside img {
-    width: 50%; } }
+    width: 75%; } }
 
 @media only screen and (min-width: 1081px) {
   #grid_container {
@@ -7341,3 +7345,8 @@ progress {
         align-self: bottom !important; }
       #footer > section section h3, #footer > section section .h3 {
         align-self: bottom !important; } }
+
+@media only screen and (min-width: 1081px) and (min-width: 1500px) {
+  #grid_container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "aside main main main ." ". content1 content2 content3 ." "footer footer footer footer footer"; } }
