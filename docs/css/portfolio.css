@@ -1,3 +1,28 @@
+/* Importing my other SCSS */
+/* Mixins */
+/* Animations */
+.zoom {
+  transform: scale(1.1);
+  animation: zoom 2s;
+  animation-fill-mode: forwards; }
+
+@keyframes zoom {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.1); } }
+
+.fade-in {
+  animation: fadein 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/* Importing Bootstrap 5 SCSS */
 /*!
  * Bootstrap v5.0.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7177,32 +7202,7 @@ progress {
   .d-print-none {
     display: none !important; } }
 
-/* Nackademin page specific stylesheet */
-/* Add scss variables */
-/* Mixins */
-/* Animations */
-.zoom {
-  transform: scale(1.1);
-  animation: zoom 2s;
-  animation-fill-mode: forwards; }
-
-@keyframes zoom {
-  from {
-    transform: scale(1); }
-  to {
-    transform: scale(1.1); } }
-
-.fade-in {
-  animation: fadein 1s;
-  animation-fill-mode: forwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-/* My own link unstyled helper class */
+/* My own CSS classes */
 .link-unstyled, .link-unstyled:visited, .link-unstyled:hover, .link-unstyled:active, .link-unstyled:focus, .link-unstyled:active:hover {
   font-style: inherit;
   color: inherit;
@@ -7231,16 +7231,7 @@ progress {
   background-repeat: no-repeat;
   background-position: center; }
 
-#grid_container {
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "aside" "main" "content1" "content2" "content3" "footer"; }
-
-.card {
-  border: none; }
-
-/* Nested Selectors */
+/* Using nested selectors for this class */
 .my_container {
   background-color: white;
   margin: 10px;
@@ -7257,7 +7248,16 @@ progress {
     background-color: #F7F7F7;
     padding: 10px; }
 
-/* Styling for the different parts of the page */
+.card {
+  border: none; }
+
+/* Styling for elements by ID */
+#grid_container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "aside" "main" "content1" "content2" "content3" "footer"; }
+
 #background {
   background-image: url("../images/autumn_w2400.jpg");
   position: absolute;
@@ -7346,7 +7346,7 @@ progress {
       #footer > section section h3, #footer > section section .h3 {
         align-self: bottom !important; } }
 
-@media only screen and (min-width: 1081px) and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) {
   #grid_container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "aside main main main ." ". content1 content2 content3 ." "footer footer footer footer footer"; } }

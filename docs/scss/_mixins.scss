@@ -1,0 +1,13 @@
+/* Mixins */
+@mixin background {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,57 +1,12 @@
+/* Importing my other SCSS */
 @import 'variables';
 @import 'utilities';
+@import 'mixins';
+@import 'animations';
+/* Importing Bootstrap 5 SCSS */
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-/* Nackademin page specific stylesheet */
-
-
-/* Add scss variables */
-
-/* Mixins */
-@mixin background {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* Animations */
-.zoom {
-	transform: scale(1.1);
-    animation: zoom 2s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-.fade-in {
-    animation: fadein 1s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-/* My own link unstyled helper class */
+/* My own CSS classes */
 .link-unstyled {
     &,
     &:visited,
@@ -79,25 +34,7 @@
     background-image: url("../images/nackademin_w2560.jpg");
     @include background;
 }
-
-#grid_container {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "aside"
-        "main"
-        "content1"
-        "content2"
-        "content3"
-        "footer";
-}
-
-.card {
-    border: none;
-}
-
-/* Nested Selectors */
+/* Using nested selectors for this class */
 .my_container {
     background-color: white;
     margin: 10px;
@@ -118,7 +55,24 @@
         padding: 10px;
     }
 }
-/* Styling for the different parts of the page */
+
+.card {
+    border: none;
+}
+
+/* Styling for elements by ID */
+#grid_container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "aside"
+        "main"
+        "content1"
+        "content2"
+        "content3"
+        "footer";
+}
 
 #background {
     background-image: url("../images/autumn_w2400.jpg");
@@ -165,7 +119,7 @@
 }
 
 /* Media Queries for Tablet and Desktop */
-@media only screen and (min-width: 400px) and (max-width: 750px)  {
+@media only screen and (min-width: 400px) and (max-width: 750px) {
     #aside {        
         article {
             flex-direction: row;
@@ -214,7 +168,7 @@
             width: 50%;
         }
     }
-    #footer > section{
+    #footer > section {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -235,13 +189,14 @@
             }
         }
     }
-    @media only screen and (min-width:1500px) {
-        #grid_container {
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-areas:         
-            "aside main main main ."
-            ". content1 content2 content3 ."
-            "footer footer footer footer footer";
-        }
+}
+
+@media only screen and (min-width:1500px) {
+    #grid_container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:         
+        "aside main main main ."
+        ". content1 content2 content3 ."
+        "footer footer footer footer footer";
     }
 }
