@@ -91,6 +91,17 @@ body {
         "footer";
 }
 
+#grid_container_about {
+    height: 100%;
+    display: grid;
+    bottom: 0;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "main"
+        "content1"
+        "footer";
+}
+
 #background {
     background-image: url("../images/autumn_w2400.jpg");
     @include background;
@@ -180,8 +191,7 @@ body {
     }
 }
 
-/* Portfolio page */
-
+/* About and Portfolio page */
 @media only screen and (min-width: 400px) and (max-width: 750px) {
     #aside {        
         article {
@@ -195,6 +205,13 @@ body {
 }
 
 @media only screen and (min-width:751px) and (max-width: 1080px) {
+    #grid_container_about {
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        grid-template-areas:
+        ". main ."
+        ". content1 ."
+        "footer footer footer";
+    }
     #grid_container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
@@ -223,7 +240,14 @@ body {
     }
 }
 
-@media only screen and (min-width:1081px) {
+@media only screen and (min-width:1081px) and (max-width: 1499px) {
+    #grid_container_about {
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        grid-template-areas:
+        ". main ."
+        ". content1 ."
+        "footer footer footer";
+    }
     #grid_container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas:         
@@ -252,6 +276,13 @@ body {
 }
 
 @media only screen and (min-width:1500px) {
+    #grid_container_about {
+        grid-template-columns: 1.5fr 3fr 1.5fr;
+        grid-template-areas:
+        ". main ."
+        ". content1 ."
+        "footer footer footer";
+    }
     #grid_container {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:         
