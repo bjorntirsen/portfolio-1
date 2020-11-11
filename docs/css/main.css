@@ -7204,7 +7204,8 @@ progress {
 
 /* element styling */
 body {
-  background-color: black; }
+  background-color: black;
+  color: #3d1e0c; }
 
 /* CSS classes */
 .link-unstyled, .link-unstyled:visited, .link-unstyled:hover, .link-unstyled:active, .link-unstyled:focus, .link-unstyled:active:hover {
@@ -7246,7 +7247,7 @@ body {
 
 /* Using nested selectors for this class */
 .my_container {
-  background-color: white;
+  background-color: transparent;
   margin: 10px;
   text-align: center; }
   .my_container p {
@@ -7258,11 +7259,11 @@ body {
     width: 90%;
     margin: 20px; }
   .my_container h2, .my_container .h2, .my_container h3, .my_container .h3 {
-    background-color: #F7F7F7;
     padding: 10px; }
 
 .card {
-  border: none; }
+  border: none;
+  background-color: rgba(215, 191, 142, 0.85); }
 
 /* Styling for elements by ID */
 #grid_container {

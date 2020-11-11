@@ -9,6 +9,7 @@
 /* element styling */
 body {
     background-color: black;
+    color: $dark;
 }
 
 /* CSS classes */
@@ -52,7 +53,7 @@ body {
 
 /* Using nested selectors for this class */
 .my_container {
-    background-color: white;
+    background-color: transparent;
     margin: 10px;
     text-align: center;
     p {
@@ -67,13 +68,13 @@ body {
         margin: 20px;
     }
     h2, h3 {
-        background-color: #F7F7F7;
         padding: 10px;
     }
 }
 
 .card {
     border: none;
+    background-color: $light_transparent;
 }
 
 /* Styling for elements by ID */
