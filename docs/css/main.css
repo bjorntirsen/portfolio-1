@@ -7223,19 +7223,6 @@ body {
   outline: inherit;
   box-shadow: inherit; }
 
-.background {
-  background-image: url("../images/nackademin_w2560.jpg");
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center; }
-
 .bg {
   background-image: url("../images/autumn_road_w640.jpg");
   height: 100%;
@@ -7278,19 +7265,6 @@ body {
   bottom: 0;
   grid-template-columns: 1fr;
   grid-template-areas: "main" "content1" "footer"; }
-
-#background {
-  background-image: url("../images/autumn_w2400.jpg");
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center; }
 
 #outer-tile {
   overflow: hidden;
@@ -7339,9 +7313,8 @@ body {
     margin-left: auto;
     margin-right: auto; }
 
-/* Media Queries for Tablet and Desktop */
-/* Landing page */
-#landing_background {
+/* Backgrounds */
+#background_landing {
   background-image: url("../images/autumn_road_w640.jpg");
   position: absolute;
   right: 0;
@@ -7355,8 +7328,35 @@ body {
   background-position: center;
   overflow: hidden; }
 
+#background_portfolio {
+  background-image: url("../images/autumn_w640.jpg");
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+#background_nackademin {
+  background-image: url("../images/nackademin_w640.jpg");
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* Media Queries */
 @media only screen and (min-width: 640px) and (max-width: 1400px) {
-  #landing_background {
+  #background_landing {
     background-image: url("../images/autumn_road_w1400.jpg");
     position: absolute;
     right: 0;
@@ -7368,10 +7368,34 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    overflow: hidden; } }
+    overflow: hidden; }
+  #background_portfolio {
+    background-image: url("../images/autumn_w1400.jpg");
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #background_nackademin {
+    background-image: url("../images/nackademin_w1400.jpg");
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center; } }
 
 @media only screen and (min-width: 1401px) {
-  #landing_background {
+  #background_landing {
     background-image: url("../images/autumn_road_w2057.jpg");
     position: absolute;
     right: 0;
@@ -7383,7 +7407,31 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    overflow: hidden; } }
+    overflow: hidden; }
+  #background_portfolio {
+    background-image: url("../images/autumn_w2400.jpg");
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #background_nackademin {
+    background-image: url("../images/nackademin_w2560.jpg");
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center; } }
 
 /* About and Portfolio page */
 @media only screen and (min-width: 400px) and (max-width: 750px) {

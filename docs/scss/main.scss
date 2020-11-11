@@ -36,11 +36,6 @@ body {
     }
 }
 
-.background {
-    background-image: url("../images/nackademin_w2560.jpg");
-    @include background;
-}
-
 .bg {
     background-image: url("../images/autumn_road_w640.jpg");
     height: 100%;
@@ -100,11 +95,6 @@ body {
         "main"
         "content1"
         "footer";
-}
-
-#background {
-    background-image: url("../images/autumn_w2400.jpg");
-    @include background;
 }
 
 #outer-tile {
@@ -167,27 +157,54 @@ body {
     }
 }
 
-/* Media Queries for Tablet and Desktop */
-/* Landing page */
-#landing_background {
+/* Backgrounds */
+#background_landing {
     background-image: url("../images/autumn_road_w640.jpg");
     @include background;
     overflow: hidden;
 }
 
+#background_portfolio {
+    background-image: url("../images/autumn_w640.jpg");
+    @include background;
+}
+
+
+#background_nackademin {
+    background-image: url("../images/nackademin_w640.jpg");
+    @include background;
+}
+
+/* Media Queries */
 @media only screen and (min-width: 640px) and (max-width: 1400px) {
-    #landing_background {
+    #background_landing {
         background-image: url("../images/autumn_road_w1400.jpg");
         @include background;
         overflow: hidden;
     }
+    #background_portfolio {
+        background-image: url("../images/autumn_w1400.jpg");
+        @include background;
+    }
+    #background_nackademin {
+        background-image: url("../images/nackademin_w1400.jpg");
+        @include background;
+    }
 }
 
 @media only screen and (min-width: 1401px) {
-    #landing_background {
+    #background_landing {
         background-image: url("../images/autumn_road_w2057.jpg");
         @include background;
         overflow: hidden;
+    }
+    #background_portfolio {
+        background-image: url("../images/autumn_w2400.jpg");
+        @include background;
+    }
+    #background_nackademin {
+        background-image: url("../images/nackademin_w2560.jpg");
+        @include background;
     }
 }
 
