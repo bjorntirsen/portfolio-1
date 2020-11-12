@@ -7206,15 +7206,6 @@ body {
   outline: inherit;
   box-shadow: inherit; }
 
-.bg {
-  background-image: url("../images/autumn_road_w640.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0; }
-
 .my_container {
   background-color: transparent;
   margin: 10px;
