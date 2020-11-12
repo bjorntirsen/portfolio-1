@@ -7273,7 +7273,7 @@ body {
 #grid_container_upcoming {
   overflow: hidden;
   position: relative;
-  padding-top: 56px !important;
+  padding-top: 92px !important;
   height: 100vh;
   display: grid;
   position: relative;
@@ -7286,7 +7286,7 @@ body {
   overflow: hidden;
   height: 100%;
   position: relative;
-  padding-top: 56px !important; }
+  padding-top: 92px !important; }
 
 #nav {
   grid-area: navi; }
@@ -7500,6 +7500,9 @@ html {
   #grid_container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "aside aside aside" "main main main" "content1 content2 content3" "footer footer footer"; }
+  #grid_container_upcoming {
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-areas: ". navi ." ". main ." "footer footer footer"; }
   #aside article {
     flex-direction: row;
     align-items: center; }
