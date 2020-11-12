@@ -72,6 +72,13 @@ body {
 }
 
 /* Styling for elements by ID */
+#wrapper_upcoming {
+    min-height: 100vh;
+    div#outer-tile {
+        min-height: 100vh;
+    }
+}
+
 #grid_container {
     height: 100%;
     display: grid;
@@ -96,11 +103,31 @@ body {
         "footer";
 }
 
+#grid_container_upcoming {
+    overflow: hidden;
+    position: relative;
+    padding-top: 56px!important;
+    height: 100vh;
+    display: grid;
+    position: relative;
+    top: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "navi"
+        "main"
+        "footer";
+}
+
 #outer-tile {
     overflow: hidden;
     height: 100%;
     position: relative;
     padding-top: 56px!important;
+}
+
+#nav {
+    grid-area: navi;
 }
 
 #aside {
@@ -177,6 +204,37 @@ body {
 }
 
 /* Media Queries */
+html {
+    font-size: 1rem;
+}
+  
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.05rem;
+    }
+    #p_upcoming {
+        font-size: 1.2rem;
+    }
+}
+  
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.1rem;
+    }
+    #p_upcoming {
+        font-size: 1.4rem;
+    }
+}
+  
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.15rem;
+    }
+    #p_upcoming {
+        font-size: 1.6rem;
+    }
+}
+
 @media (orientation: landscape) and (min-height: 760px) {
     #landing_main {
         max-height: 80vh;
@@ -279,10 +337,10 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas:         
         "aside main main main"
-        ". content1 content2 content3"
+        "aside content1 content2 content3"
         "footer footer footer footer";
     }
-    #aside {        
+    #aside {    
         article {
             flex-direction: column;
             align-items: center;
@@ -314,7 +372,7 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:         
         "aside main main main ."
-        ". content1 content2 content3 ."
+        "aside content1 content2 content3 ."
         "footer footer footer footer footer";
     }
     #footer > section {

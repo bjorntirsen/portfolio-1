@@ -15,136 +15,71 @@
 
 <body>
     <!-- Wrapper -->
-    <div class="fade-in">
-        <!-- Nav Bar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <span class="navbar-brand text-dark" href="#">Björn Tirsén's Portfolio:</span>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-dark"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" aria-current="page" href="index.html">Landing Page</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" aria-current="page" href="about.html">About this site</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" aria-current="page" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="nackademin.html">My School - Nackademin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="upcoming.html"><u>Upcoming Projects</u></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#footer">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div id="outer-tile">
-            <!-- Main Page Content -->
-            <div id="grid_container" class="">
-                <!-- Pseudo Element Background-->
-                <section id="background_portfolio" class="zoom">
-                </section>
-                <!-- Main -->
-                <section id="main" class="my_container">
-                    <div class="card">
-                        <header class="card-header">
-                            <div class="text-center">November 1, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">Developing the Developer</h2>
-                            <h3 class="card-subtitletext-uppercase font-weight-bold text-center">
-                                the Björn Tirsén Portfolio</h3>
-                        </header>
-                        <article class="card-body text-center font-monospace font-italic">
-                            <p>This site. Individual project. My first ever portfolio site. Responsive design. In English.</p>
-                            <picture>
-                                <source srcset="images/autumn_w2400.jpg" media="(min-width: 2400px)" />
-                                <source srcset="images/autumn_w1920.jpg" media="(min-width: 1920px)" />
-                                <source srcset="images/autumn_w1024.jpg" media="(min-width: 1024px)" />
-                                <img src="images/autumn_w640.jpg" class="card-img-top  border border-primary" alt="autumn landscape">
-                            </picture>
-                            <button type="button" class="btn btn-primary mx-2 btn-lg">Techniques Used</button>
-                        </article>
-                    </div>
-                </section>
-                <div id="content1" class="my_container">
-                    <div class="card">
-                        <header class="card-header">
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/event_project/"><div class="text-center">October 30, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">ACME Events</h2>
-                            <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
-                                site for entertainment events</h3></a>
-                        </header>
-                        <article class="card-body text-center font-monospace font-italic">
-                            <p>Group project. An event page where you can CRUD events to Local Storage. Non-responsive design. In Swedish.</p>
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/event_project/"></a><picture>
-                                <source srcset="images/event_w1317.png" media="(min-width: 641px)" />
-                                <img src="images/event_w640.png" class="card-img-top  border border-primary" alt="Screenshot of the Event site">
-                            </picture></a>
-                            <button type="button" class="btn btn-primary m-1">Techniques Used</button>
-                            <a class="btn btn-secondary m-1" href="https://bjorntirsen.github.io/event_project/" role="button">Visit Site</a>
-                        </article>
+    <div id="wrapper_upcoming" class="fade-in">
+        <!-- Main Page Content -->
+        <div id="grid_container_upcoming" class="">
+            <!-- Pseudo Element Background-->
+            <section id="background_portfolio" class="zoom">
+            </section>
+            <!-- Nav Bar -->
+            <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <span class="navbar-brand text-dark" href="#">Björn Tirsén's Portfolio:</span>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-dark"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="index.html">Landing Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="about.html">About this site</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="nackademin.html">My School - Nackademin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="upcoming.html"><u>Upcoming Projects</u></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#footer">Contact Me</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div id="content2" class="my_container">
-                    <div class="card">
-                        <header class="card-header">
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/quiz_project/"><div class="text-center">October 12, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">JavaScript Quiz</h2>
-                            <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
-                                test your coding knowledge</h3></a>
-                        </header>
-                        <article class="card-body text-center font-monospace font-italic">
-                            <p>Individual project. A quiz app that fetches its questions from a REST API. Semi-responsive design. In English.</p>
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/quiz_project/"><picture>
-                                <source srcset="images/quiz_w1323.png" media="(min-width: 641px)" />
-                                <img src="images/quiz_w640.png" class="card-img-top  border border-primary" alt="Screenshot of the Quiz site">
-                            </picture></a>
-                            <button type="button" class="btn btn-primary m-1">Techniques Used</button>
-                            <a class="btn btn-secondary m-1" href="https://bjorntirsen.github.io/quiz_project/"role="button">Visit Site</a>
-                        </article>
-                    </div>
+            </nav>
+            <!-- Main -->
+            <section id="main" class="my_container">
+                <div class="card">
+                    <header class="card-header">
+                        <div class="text-center">Started November 14, 2020</div>
+                        <h2 class="card-title text-uppercase font-weight-bold text-center">Upcoming project:</h2>
+                        <h3 class="card-subtitletext-uppercase font-weight-bold text-center">
+                            Yatzy 2.0</h3>
+                    </header>
+                    <article class="card-body text-center font-monospace font-italic">
+                        <p id="p_upcoming">I'm updating all my previous projects into responsive and fully functional sites: First up is the Yatzy site.</p>
+                        <a class="mt-3 btn btn-primary btn-lg" href="https://github.com/bjorntirsen/yatzy_project2.0" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
+                    </article>
                 </div>
-                <div id="content3" class="my_container">
-                    <div class="card">
-                        <header class="card-header">
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/yatzy_project/"><div class="text-center">September 24, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">Yatzy game</h2>
-                            <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
-                                Play the classic dice game on the web</h3></a>
-                        </header>
-                        <article class="card-body text-center font-monospace font-italic">
-                            <p>Group project. Uses javascript to simulate dice throws. My first web project. Not completed. Non-responsive design.</p>
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/yatzy_project/"><picture>
-                                <source srcset="images/yatzy_w1179.png" media="(min-width: 641px)" />
-                                <img src="images/yatzy_w640.png" class="card-img-top" alt="Screenshot of the Yatzy site">
-                            </picture></a>
-                            <button type="button" class="btn btn-primary m-1">Techniques Used</button>
-                            <a class="btn btn-secondary m-1" href="https://bjorntirsen.github.io/yatzy_project/" role="button">Visit Site</a>
-                        </article>
-                    </div>
-                </div>
-                <footer id="footer" class="footer mt-auto py-3 bg-light">
-                    <section class="container">
-                        <section class="d-flex">
-                            <h4 class="m-auto p-3">Email</h4>
-                            <a class="btn btn-primary m-auto" href="mailto:bjorntirsen@gmail.com" role="button">bjorntirsen@gmail.com</a>
-                        </section>
-                        <section class="d-flex">
-                            <h4 class="m-auto p-3">Social</h4>
-                            <a class="btn btn-secondary my-auto mx-1 align-items-center" href="https://www.linkedin.com/in/bjorntirsen/" role="button"><span class="m-auto p-1">LinkedIn</span><i class="fab fa-linkedin fa-2x m-1"></i></a>
-                            <a class="btn btn-secondary my-auto mx-1 align-items-center" href="https://github.com/bjorntirsen" role="button"><span class="m-auto p-1">GitHub</span><i class="fab fa-github fa-2x m-1"></i></a>
-                        </section>
+            </section>
+            <footer id="footer" class="footer mt-auto py-3 bg-light">
+                <section class="container">
+                    <section class="d-flex">
+                        <h4 class="m-auto p-3">Email</h4>
+                        <a class="btn btn-primary m-auto" href="mailto:bjorntirsen@gmail.com" role="button">bjorntirsen@gmail.com</a>
                     </section>
-                </footer>
-            </div>
+                    <section class="d-flex">
+                        <h4 class="m-auto p-3">Social</h4>
+                        <a class="btn btn-secondary my-auto mx-1 align-items-center" href="https://www.linkedin.com/in/bjorntirsen/" role="button"><span class="m-auto p-1">LinkedIn</span><i class="fab fa-linkedin fa-2x m-1"></i></a>
+                        <a class="btn btn-secondary my-auto mx-1 align-items-center" href="https://github.com/bjorntirsen" role="button"><span class="m-auto p-1">GitHub</span><i class="fab fa-github fa-2x m-1"></i></a>
+                    </section>
+                </section>
+            </footer>
         </div>
     </div>
     <!-- JavaScript -->
