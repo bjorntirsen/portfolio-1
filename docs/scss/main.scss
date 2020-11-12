@@ -46,7 +46,6 @@ body {
     z-index: 0;
 }
 
-/* Using nested selectors for this class */
 .my_container {
     background-color: transparent;
     margin: 10px;
@@ -121,9 +120,7 @@ body {
 
 #img_main {
     max-width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    @include block_center;
 }
 
 #content1 {
@@ -157,9 +154,7 @@ body {
     background-color: $light_transparent!important;
     img {
         width: 75%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 }
 
@@ -182,6 +177,15 @@ body {
 }
 
 /* Media Queries */
+@media (orientation: landscape) and (min-height: 760px) {
+    #landing_main {
+        max-height: 80vh;
+        img {
+            max-width: 45vh;
+        }
+    }
+}
+
 @media only screen and (min-width: 640px) and (max-width: 1400px) {
     #background_landing {
         background-image: url("../images/autumn_road_w1400.jpg");
