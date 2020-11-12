@@ -1,5 +1,6 @@
 
 /* Media Queries */
+/* Fist some settings to make fonts a bit responsive */
 html {
     font-size: 1rem;
 }
@@ -31,6 +32,7 @@ html {
     }
 }
 
+/* Then one to make landing layout nicer on ipad landscape */
 @media (orientation: landscape) and (min-height: 760px) {
     #landing_main {
         max-height: 80vh;
@@ -40,6 +42,7 @@ html {
     }
 }
 
+/* First responsive background images */
 @media only screen and (min-width: 640px) and (max-width: 1400px) {
     #background_landing {
         background-image: url("../images/autumn_road_w1400.jpg");
@@ -72,7 +75,9 @@ html {
     }
 }
 
-/* About and Portfolio page */
+/* Then responsive layouts in 4 steps */
+
+/* Over 400px */
 @media only screen and (min-width: 400px) and (max-width: 750px) {
     #aside {        
         article {
@@ -85,6 +90,7 @@ html {
     }
 }
 
+/* Over 750px */
 @media only screen and (min-width:751px) and (max-width: 1080px) {
     #grid_container_about {
         grid-template-columns: 0.5fr 3fr 0.5fr;
@@ -128,6 +134,7 @@ html {
     }
 }
 
+/* Over 1080px */
 @media only screen and (min-width:1081px) and (max-width: 1499px) {
     #grid_container_about {
         grid-template-columns: 0.5fr 3fr 0.5fr;
@@ -163,6 +170,7 @@ html {
     }
 }
 
+/* Over 1500px */
 @media only screen and (min-width:1500px) {
     #grid_container_about {
         grid-template-columns: 1.5fr 3fr 1.5fr;

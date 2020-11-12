@@ -1,3 +1,5 @@
+/* This is the main SCSS that all pages use */
+
 /* Importing my other SCSS */
 @import 'variables';
 @import 'utilities';
@@ -6,13 +8,13 @@
 /* Importing Bootstrap 5 SCSS */
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-/* element styling */
+/* Styling based on element */
 body {
     background-color: black;
     color: $dark;
 }
 
-/* CSS classes */
+/* Styling based on class */
 .link-unstyled {
     &,
     &:visited,
@@ -71,7 +73,7 @@ body {
     background-color: $light_transparent;
 }
 
-/* Styling for elements by ID */
+/* Styling based on ID */
 #wrapper_upcoming {
     min-height: 100vh;
     div#outer-tile {
@@ -167,8 +169,6 @@ body {
     bottom: 0;
 }
 
-/* Landing Page styling */
-/* Solved the unintentional scrolling with pos rel */
 #landing_outer_tile {
     height: 100vh;
     overflow: hidden;
@@ -185,7 +185,7 @@ body {
     }
 }
 
-/* Backgrounds */
+/* Three different background images */
 #background_landing {
     background-image: url("../images/autumn_road_w640.jpg");
     @include background;
@@ -203,4 +203,5 @@ body {
     @include background;
 }
 
+/* Importing Media Queries */
 @import 'mediaqueries';

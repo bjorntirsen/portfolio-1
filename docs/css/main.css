@@ -1,3 +1,4 @@
+/* This is the main SCSS that all pages use */
 /* Importing my other SCSS */
 /* Mixins */
 /* Animations */
@@ -7202,12 +7203,12 @@ progress {
   .d-print-none {
     display: none !important; } }
 
-/* element styling */
+/* Styling based on element */
 body {
   background-color: black;
   color: #3d1e0c; }
 
-/* CSS classes */
+/* Styling based on class */
 .link-unstyled, .link-unstyled:visited, .link-unstyled:hover, .link-unstyled:active, .link-unstyled:focus, .link-unstyled:active:hover {
   font-style: inherit;
   color: inherit;
@@ -7251,7 +7252,7 @@ body {
   border: none;
   background-color: rgba(215, 191, 142, 0.85); }
 
-/* Styling for elements by ID */
+/* Styling based on ID */
 #wrapper_upcoming {
   min-height: 100vh; }
   #wrapper_upcoming div#outer-tile {
@@ -7321,8 +7322,6 @@ body {
   grid-area: footer;
   bottom: 0; }
 
-/* Landing Page styling */
-/* Solved the unintentional scrolling with pos rel */
 #landing_outer_tile {
   height: 100vh;
   overflow: hidden;
@@ -7338,7 +7337,7 @@ body {
     margin-left: auto;
     margin-right: auto; }
 
-/* Backgrounds */
+/* Three different background images */
 #background_landing {
   background-image: url("../images/autumn_road_w640.jpg");
   position: absolute;
@@ -7379,7 +7378,9 @@ body {
   background-repeat: no-repeat;
   background-position: center; }
 
+/* Importing Media Queries */
 /* Media Queries */
+/* Fist some settings to make fonts a bit responsive */
 html {
   font-size: 1rem; }
 
@@ -7401,12 +7402,14 @@ html {
   #p_upcoming {
     font-size: 1.6rem; } }
 
+/* Then one to make landing layout nicer on ipad landscape */
 @media (orientation: landscape) and (min-height: 760px) {
   #landing_main {
     max-height: 80vh; }
     #landing_main img {
       max-width: 45vh; } }
 
+/* First responsive background images */
 @media only screen and (min-width: 640px) and (max-width: 1400px) {
   #background_landing {
     background-image: url("../images/autumn_road_w1400.jpg");
@@ -7485,7 +7488,8 @@ html {
     background-repeat: no-repeat;
     background-position: center; } }
 
-/* About and Portfolio page */
+/* Then responsive layouts in 4 steps */
+/* Over 400px */
 @media only screen and (min-width: 400px) and (max-width: 750px) {
   #aside article {
     flex-direction: row;
@@ -7493,6 +7497,7 @@ html {
   #aside img {
     width: 85%; } }
 
+/* Over 750px */
 @media only screen and (min-width: 751px) and (max-width: 1080px) {
   #grid_container_about {
     grid-template-columns: 0.5fr 3fr 0.5fr;
@@ -7516,6 +7521,7 @@ html {
       display: flex;
       flex-direction: row; } }
 
+/* Over 1080px */
 @media only screen and (min-width: 1081px) and (max-width: 1499px) {
   #grid_container_about {
     grid-template-columns: 0.5fr 3fr 0.5fr;
@@ -7536,6 +7542,7 @@ html {
       display: flex;
       flex-direction: row; } }
 
+/* Over 1500px */
 @media only screen and (min-width: 1500px) {
   #grid_container_about {
     grid-template-columns: 1.5fr 3fr 1.5fr;
