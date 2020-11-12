@@ -1,4 +1,28 @@
-Jag har valt att lägga upp det som numrerade frågor och svar:
+Först kommer tillgänglighet, sedan de tre sakerna som skulle förklaras. Jag har valt att lägga upp det som numrerade frågor och svar:
+
+Tillgänglighet:
+
+1.1.1 (A) Beskriv med text allt innehåll som inte är text:
+Alla bilder har kort beskrivning via alt attributet.
+
+1.3.1 (A) Ange i kod vad sidans olika delar har för roll:
+Rubriker och listor är satta med rätt taggar.
+
+1.3.2.(A) Presentera innehållet i en meningsfull ordning för alla:
+Delarna av sidan presenteras logiskt oavsett om du använder mobil surfplatta eller dator.
+
+1.3.4 (AA) Se till att allt innehåll presenteras rätt oavsett skärmens riktning:
+Sidan har designats så att den ska fungera bra oavsett skärmstorlek eller rikting enheten hålls i.
+
+1.4.11 (A) Använd tillräckliga kontraster i komponenter och grafik:
+Jag har tydlig kontrast mellan alla bilder/ikoner och bakgrund
+
+1.4.3 (A) Använd tillräcklig kontrast mellan text och bakgrund:
+Jag har testat att kontrasen på texten är tillräcklig med Chromes utvecklingsverktyg.
+
+2.4.4 (A) Skriv tydliga länkar:
+Jag designat sidan så det ska vara tyligt vart länkarna leder.
+
 
 1a. Q: Vad är SCRUM?
 
