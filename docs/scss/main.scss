@@ -154,7 +154,7 @@ body {
     background-color: $light_transparent!important;
     img {
         width: 75%;
-        
+        @include block_center;
     }
 }
 
