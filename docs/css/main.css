@@ -7502,6 +7502,9 @@ html {
   #grid_container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "aside main main main" "aside content1 content2 content3" "footer footer footer footer"; }
+  #grid_container_upcoming {
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-areas: ". navi ." ". main ." "footer footer footer"; }
   #aside article {
     flex-direction: column;
     align-items: center; }
@@ -7523,6 +7526,9 @@ html {
   #grid_container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "aside main main main ." "aside content1 content2 content3 ." "footer footer footer footer footer"; }
+  #grid_container_upcoming {
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-areas: ". navi ." ". main ." "footer footer footer"; }
   #footer > section {
     display: flex;
     flex-direction: row;
