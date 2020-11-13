@@ -1,6 +1,7 @@
 /* Animations */
+
 .zoom {
-	transform: scale(1.1);
+    transform: scale(1.1);
     animation: zoom 2s;
     animation-fill-mode: forwards;
 }

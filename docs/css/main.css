@@ -1,5 +1,9 @@
 /* This is the main SCSS that all pages use */
 /* Importing my other SCSS */
+/* These are my custom variables */
+/* Color palette */
+/* Fonts */
+/* Max widths for the bootstrap class container */
 /* Mixins */
 /* Animations */
 .zoom {
@@ -7218,7 +7222,9 @@ body {
   .my_container img {
     width: 90%;
     margin: 20px; }
-  .my_container h2, .my_container .h2, .my_container h3, .my_container .h3 {
+  .my_container h2, .my_container .h2,
+  .my_container h3,
+  .my_container .h3 {
     padding: 10px; }
 
 .card {

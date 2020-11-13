@@ -1,19 +1,22 @@
+/* These are my custom variables */
+
+
+/* Color palette */
+
 $primary: #BE5109;
 $secondary: #F1AB10;
 $light: #d7bf8e;
 $dark: #3d1e0c;
 $success: #8A7992;
+$light_transparent: rgba(215, 191, 142, 0.85);
 
-$light_transparent: rgba(215,191,142,0.85);
+/* Fonts */
 
-$font-family-sans-serif: 'Source Sans Pro', sans-serif !default;
+$font-family-sans-serif: 'Source Sans Pro',
+sans-serif !default;
+$font-family-monospace: 'Merriweather',
+serif !default;
 
-$font-family-monospace: 'Merriweather', serif !default;
+/* Max widths for the bootstrap class container */
 
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 2400px
-);
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 2400px);

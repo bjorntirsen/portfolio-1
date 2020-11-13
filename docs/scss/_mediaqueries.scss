@@ -1,10 +1,12 @@
-
 /* Media Queries */
+
+
 /* Fist some settings to make fonts a bit responsive */
+
 html {
     font-size: 1rem;
 }
-  
+
 @include media-breakpoint-up(sm) {
     html {
         font-size: 1.05rem;
@@ -13,7 +15,7 @@ html {
         font-size: 1.2rem;
     }
 }
-  
+
 @include media-breakpoint-up(md) {
     html {
         font-size: 1.05rem;
@@ -22,7 +24,7 @@ html {
         font-size: 1.4rem;
     }
 }
-  
+
 @include media-breakpoint-up(lg) {
     html {
         font-size: 1.15rem;
@@ -32,7 +34,9 @@ html {
     }
 }
 
+
 /* Then one to make landing layout nicer on ipad landscape */
+
 @media (orientation: landscape) and (min-height: 760px) {
     #landing_main {
         max-height: 80vh;
@@ -42,7 +46,9 @@ html {
     }
 }
 
+
 /* First responsive background images */
+
 @media only screen and (min-width: 640px) and (max-width: 1400px) {
     #background_landing {
         background-image: url("../images/autumn_road_w1400.jpg");
@@ -75,11 +81,14 @@ html {
     }
 }
 
+
 /* Then responsive layouts in 4 steps */
 
+
 /* Over 400px */
+
 @media only screen and (min-width: 400px) and (max-width: 750px) {
-    #aside {        
+    #aside {
         article {
             flex-direction: row;
             align-items: center;
@@ -90,31 +99,23 @@ html {
     }
 }
 
+
 /* Over 750px */
+
 @media only screen and (min-width:751px) and (max-width: 1080px) {
     #grid_container_about {
         grid-template-columns: 0.5fr 3fr 0.5fr;
-        grid-template-areas:
-        ". main ."
-        ". content1 ."
-        "footer footer footer";
+        grid-template-areas: ". main ." ". content1 ." "footer footer footer";
     }
     #grid_container {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "aside aside aside"
-        "main main main"
-        "content1 content2 content3"
-        "footer footer footer";
+        grid-template-areas: "aside aside aside" "main main main" "content1 content2 content3" "footer footer footer";
     }
     #grid_container_upcoming {
         grid-template-columns: 0.5fr 3fr 0.5fr;
-        grid-template-areas:
-        ". navi ."
-        ". main ."
-        "footer footer footer";
+        grid-template-areas: ". navi ." ". main ." "footer footer footer";
     }
-    #aside {        
+    #aside {
         article {
             flex-direction: row;
             align-items: center;
@@ -123,7 +124,7 @@ html {
             width: 75%;
         }
     }
-    #footer > section {
+    #footer>section {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -134,7 +135,9 @@ html {
     }
 }
 
+
 /* Special for ul of Nackademin page */
+
 @media only screen and (min-width:751px) and (max-width: 920px) {
     #grid_container {
         ul {
@@ -143,30 +146,23 @@ html {
     }
 }
 
+
 /* Over 1080px */
+
 @media only screen and (min-width:1081px) and (max-width: 1499px) {
     #grid_container_about {
         grid-template-columns: 0.5fr 3fr 0.5fr;
-        grid-template-areas:
-        ". main ."
-        ". content1 ."
-        "footer footer footer";
+        grid-template-areas: ". main ." ". content1 ." "footer footer footer";
     }
     #grid_container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-areas:         
-        "aside main main main"
-        "aside content1 content2 content3"
-        "footer footer footer footer";
+        grid-template-areas: "aside main main main" "aside content1 content2 content3" "footer footer footer footer";
     }
     #grid_container_upcoming {
         grid-template-columns: 0.5fr 3fr 0.5fr;
-        grid-template-areas:
-        ". navi ."
-        ". main ."
-        "footer footer footer";
+        grid-template-areas: ". navi ." ". main ." "footer footer footer";
     }
-    #aside {    
+    #aside {
         article {
             flex-direction: column;
             align-items: center;
@@ -175,7 +171,7 @@ html {
             width: 50%;
         }
     }
-    #footer > section {
+    #footer>section {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -186,30 +182,23 @@ html {
     }
 }
 
+
 /* Over 1500px */
+
 @media only screen and (min-width:1500px) {
     #grid_container_about {
         grid-template-columns: 1.5fr 3fr 1.5fr;
-        grid-template-areas:
-        ". main ."
-        ". content1 ."
-        "footer footer footer";
+        grid-template-areas: ". main ." ". content1 ." "footer footer footer";
     }
     #grid_container {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas:         
-        "aside main main main ."
-        "aside content1 content2 content3 ."
-        "footer footer footer footer footer";
+        grid-template-areas: "aside main main main ." "aside content1 content2 content3 ." "footer footer footer footer footer";
     }
     #grid_container_upcoming {
         grid-template-columns: 0.5fr 3fr 0.5fr;
-        grid-template-areas:
-        ". navi ."
-        ". main ."
-        "footer footer footer";
+        grid-template-areas: ". navi ." ". main ." "footer footer footer";
     }
-    #footer > section {
+    #footer>section {
         display: flex;
         flex-direction: row;
         justify-content: center;
