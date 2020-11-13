@@ -16,10 +16,10 @@
 <body>
     <!-- Wrapper -->
     <div class="fade-in">
-		<!-- Nav Bar -->
+        <!-- Nav Bar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <span class="navbar-brand text-dark" href="#">Björn Tirsén's Portfolio:</span>
+                <span class="navbar-brand text-dark">Björn Tirsén's Portfolio:</span>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-dark"></span>
                 </button>
@@ -51,9 +51,9 @@
         <div id="outer-tile">
             <div id="grid_container_about" class="">
                 <!-- Pseudo Element Background-->
-                <section id="background_portfolio" class="zoom" alt="Background image of an autumn landscape.">
-				</section>
-				<!-- Main -->
+                <div id="background_portfolio" class="zoom">
+                </div>
+                <!-- Main -->
                 <section id="main" class="my_container">
                     <div class="card">
                         <header class="card-header">
@@ -68,15 +68,17 @@
                             <a class="btn btn-primary mx-2 btn-lg" href="#footer" role="button">Contact Me Here</a>
                         </article>
                     </div>
-				</section>
-				<!-- Content1 -->
+                </section>
+                <!-- Content1 -->
                 <div id="content1" class="my_container">
                     <div class="card">
                         <header class="card-header">
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/event_project/"><div class="text-center">October 30, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">Project Requirements</h2>
-                            <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
-                                In Swedish</h3></a>
+                            <a class="link-unstyled" href="https://bjorntirsen.github.io/event_project/">
+                                <div class="text-center">October 30, 2020</div>
+                                <h2 class="card-title text-uppercase font-weight-bold text-center">Project Requirements</h2>
+                                <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
+                                    In Swedish</h3>
+                            </a>
                         </header>
                         <article class="card-body text-center font-monospace font-italic">
                             <h5 class="card-title text-uppercase font-weight-bold text-center">Individuell inlämningsuppgift - portfolio/CV</h5>
@@ -103,23 +105,26 @@
                                 <li>Sidan ska vara responsiv och använda media queries.</li>
                                 <li>Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids eller Flexbox.</li>
                                 <li>Det ska finnas en sida som beskriver utbildningen.</li>
-                                <li>I ditt repo ska det finnas en rapport.txt (jag kommer att kolla era repon genom VS Code och vill slippa öppna Word eller liknande) där du beskriver Scrum, grafisk profil och tillgänglighet så att jag kan se att du förstår dessa begrepp.</li>
+                                <li>I ditt repo ska det finnas en rapport.txt (jag kommer att kolla era repon genom VS Code och vill slippa öppna Word eller liknande) där du beskriver Scrum, grafisk profil och tillgänglighet så att jag kan se att du förstår
+                                    dessa begrepp.</li>
                             </ul>
                             <h6>VG-krav</h6>
                             <ul class="text-left">
                                 <li>Allt som ingår för G och inte överskrivs av något VG-krav.</li>
                                 <li>Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids OCH Flexbox.</li>
-                                <li>Ni ska ha någon funktionalitet som använder sig av CSS Transitions eller CSS Animations. Det kan t ex vara en meny som fälls ut animerat när man klickar på den, innehåll som sakta skiftar bakgrundsfärg när man hovrar den eller någon liknande. Ni får använda er av JavaScript om ni vill, men ni får även använda er av hoover-selektorer om det passar er bättre.</li>
+                                <li>Ni ska ha någon funktionalitet som använder sig av CSS Transitions eller CSS Animations. Det kan t ex vara en meny som fälls ut animerat när man klickar på den, innehåll som sakta skiftar bakgrundsfärg när man hovrar den
+                                    eller någon liknande. Ni får använda er av JavaScript om ni vill, men ni får även använda er av hoover-selektorer om det passar er bättre.</li>
                                 <li>All kod (HTML, SCSS/CSS, JavaScript) ska vara välskriven, korrekt indenterad och kommenterad.</li>
                                 <li>Implementera minst 5 tillgänglighetskrav.</li>
                                 <li>Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/svårigheter med de olika teknikerna.</li>
                                 <li>Lämna in i tid, dvs om du får en restuppgift kommer du inte att kunna få VG, enbart IG/G.</li>
                             </ul>
-                            <p>Redovisning sker dels genom att lämna in en länk till ett repo som visar att ni kan använda git i ert dagliga arbete med era projekt senast söndag 15/11, dels muntligt när ni visar upp era projekt 12-13/11. Redovisningen är obligatorisk och både den muntliga redovisningen och det inlämnade materialet är betygsgrundande.</p>
+                            <p>Redovisning sker dels genom att lämna in en länk till ett repo som visar att ni kan använda git i ert dagliga arbete med era projekt senast söndag 15/11, dels muntligt när ni visar upp era projekt 12-13/11. Redovisningen är
+                                obligatorisk och både den muntliga redovisningen och det inlämnade materialet är betygsgrundande.</p>
                         </article>
                     </div>
-				</div>
-				<!-- Footer -->
+                </div>
+                <!-- Footer -->
                 <footer id="footer" class="footer mt-auto py-3 bg-light">
                     <section class="container">
                         <section class="d-flex">
@@ -141,4 +146,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </body>
+
 </html>

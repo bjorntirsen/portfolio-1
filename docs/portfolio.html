@@ -19,7 +19,7 @@
         <!-- Nav Bar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <span class="navbar-brand text-dark" href="#">Björn Tirsén's Portfolio:</span>
+                <span class="navbar-brand text-dark">Björn Tirsén's Portfolio:</span>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-dark"></span>
                 </button>
@@ -51,15 +51,15 @@
         <div id="outer-tile">
             <div id="grid_container" class="">
                 <!-- Pseudo Element Background-->
-                <section id="background_portfolio_lg" class="zoom" alt="Background image of an autumn landscape.">
-                </section>
+                <div id="background_portfolio_lg" class="zoom">
+                </div>
                 <!-- Aside -->
                 <aside id="aside" class="my_container">
                     <div class="card">
                         <header class="card-header">
                             <h2 class="card-title text-uppercase font-weight-bold text-center text-dark">About me:</h2>
-                            </header>
-                            <article class="card-body text-center font-monospace font-italic">
+                        </header>
+                        <article class="card-body text-center font-monospace font-italic">
                             <picture>
                                 <source srcset="images/profilephoto_w500.jpg" media="(min-width: 640px)" />
                                 <img src="images/profilephoto_w320.jpg" class="card-img-top rounded-circle" alt="Picture of Björn Tirsén's smiling face.">
@@ -68,7 +68,7 @@
                                 <p>Hi, I'm Björn!</p>
                                 <p>An aspiring Full Stack Web Developer who will graduate in May 2022.</p>
                                 <p>Check me out on GitHub or LinkedIn or request my resumé by email.</p>
-                                <a class="btn btn-primary mx-2" href="#footer"role="button">Contact Me</a>
+                                <a class="btn btn-primary mx-2" href="#footer" role="button">Contact Me</a>
                             </div>
                         </article>
                     </div>
@@ -97,17 +97,19 @@
                 <div id="content1" class="my_container">
                     <div class="card">
                         <header class="card-header">
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/event_project/"><div class="text-center">October 30, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">ACME Events</h2>
-                            <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
-                                site for entertainment events</h3></a>
+                            <a class="link-unstyled" href="https://bjorntirsen.github.io/event_project/">
+                                <div class="text-center">October 30, 2020</div>
+                                <h2 class="card-title text-uppercase font-weight-bold text-center">ACME Events</h2>
+                                <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
+                                    site for entertainment events</h3>
+                            </a>
                         </header>
                         <article class="card-body text-center font-monospace font-italic">
                             <p>Group project. An event page where you can CRUD events to Local Storage. Non-responsive design. In Swedish.</p>
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/event_project/"></a><picture>
+                            <picture>
                                 <source srcset="images/event_w1317.jpg" media="(min-width: 641px)" />
                                 <img src="images/event_w640.jpg" class="card-img-top  border border-primary" alt="Screenshot of the Event site.">
-                            </picture></a>
+                            </picture>
                             <a class="btn btn-primary m-1" href="https://bjorntirsen.github.io/event_project/" role="button">Visit Site</a>
                             <button type="button" class="btn btn-secondary m-1" data-toggle="modal" data-target="#eventModal">Techniques Used</button>
                             <a class="btn btn-secondary m-1" href="https://github.com/bjorntirsen/event_project" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
@@ -118,17 +120,21 @@
                 <div id="content2" class="my_container">
                     <div class="card">
                         <header class="card-header">
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/quiz_project/"><div class="text-center">October 12, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">JavaScript Quiz</h2>
-                            <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
-                                test your coding knowledge</h3></a>
+                            <a class="link-unstyled" href="https://bjorntirsen.github.io/quiz_project/">
+                                <div class="text-center">October 12, 2020</div>
+                                <h2 class="card-title text-uppercase font-weight-bold text-center">JavaScript Quiz</h2>
+                                <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
+                                    test your coding knowledge</h3>
+                            </a>
                         </header>
                         <article class="card-body text-center font-monospace font-italic">
                             <p>Individual project. A quiz app that fetches its questions from a REST API. Semi-responsive design. In English.</p>
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/quiz_project/"><picture>
-                                <source srcset="images/quiz_w1323.jpg" media="(min-width: 641px)" />
-                                <img src="images/quiz_w640.jpg" class="card-img-top  border border-primary" alt="Screenshot of the Quiz site.">
-                            </picture></a>
+                            <a class="link-unstyled" href="https://bjorntirsen.github.io/quiz_project/">
+                                <picture>
+                                    <source srcset="images/quiz_w1323.jpg" media="(min-width: 641px)" />
+                                    <img src="images/quiz_w640.jpg" class="card-img-top  border border-primary" alt="Screenshot of the Quiz site.">
+                                </picture>
+                            </a>
                             <a class="btn btn-primary m-1" href="https://bjorntirsen.github.io/quiz_project/" role="button">Visit Site</a>
                             <button type="button" class="btn btn-secondary m-1" data-toggle="modal" data-target="#quizModal">Techniques Used</button>
                             <a class="btn btn-secondary m-1" href="https://github.com/bjorntirsen/quiz_project" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
@@ -139,17 +145,21 @@
                 <div id="content3" class="my_container">
                     <div class="card">
                         <header class="card-header">
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/yatzy_project/"><div class="text-center">September 24, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">Yahtzee game</h2>
-                            <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
-                                Play the classic dice game on the web</h3></a>
+                            <a class="link-unstyled" href="https://bjorntirsen.github.io/yatzy_project/">
+                                <div class="text-center">September 24, 2020</div>
+                                <h2 class="card-title text-uppercase font-weight-bold text-center">Yahtzee game</h2>
+                                <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
+                                    Play the classic dice game on the web</h3>
+                            </a>
                         </header>
                         <article class="card-body text-center font-monospace font-italic">
                             <p>Group project. Uses javascript to simulate dice throws. My first web project. Not completed. Non-responsive design.</p>
-                            <a class="link-unstyled" href="https://bjorntirsen.github.io/yatzy_project/"><picture>
-                                <source srcset="images/yatzy_w1179.jpg" media="(min-width: 641px)" />
-                                <img src="images/yatzy_w640.jpg" class="card-img-top" alt="Screenshot of the Yatzy site.">
-                            </picture></a>
+                            <a class="link-unstyled" href="https://bjorntirsen.github.io/yatzy_project/">
+                                <picture>
+                                    <source srcset="images/yatzy_w1179.jpg" media="(min-width: 641px)" />
+                                    <img src="images/yatzy_w640.jpg" class="card-img-top" alt="Screenshot of the Yatzy site.">
+                                </picture>
+                            </a>
                             <a class="btn btn-primary m-1" href="https://bjorntirsen.github.io/yatzy_project/" role="button">Visit Site</a>
                             <button type="button" class="btn btn-secondary m-1" data-toggle="modal" data-target="#yahtzeeModal">Techniques Used</button>
                             <a class="btn btn-secondary m-1" href="https://github.com/bjorntirsen/yatzy_project" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
@@ -215,7 +225,9 @@
                 </div>
                 <div class="modal-body d-flex flex-column align-items-center">
                     <i class="fas fa-laptop-code fa-3x m-1" title="An icon of a laptop with code brackets on the display."></i>
-                    <p class="text-center">For this group project we were aksed to create functinoality for "CRUDing" events to/from Local Storage (LS). We opted for translating all JS event-objects into JSON and saving them as one JSON object in LS each time any changes were made.</p>
+                    <p class="text-center">For this group project we were aksed to create functinoality for "CRUDing" events to/from Local Storage (LS). We opted for translating all JS event-objects into JSON and saving them as one JSON object in LS each time any changes were
+                        made.
+                    </p>
                     <p class="text-center">If you load the page without any events already in LS, our JS will create five "default events" and save in LS.</p>
                     <div class="d-flex align-items-center">
                         <i class="fab fa-html5 fa-3x m-1" title="The HTML5 logo."></i>
@@ -300,4 +312,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </body>
+
 </html>
