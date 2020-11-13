@@ -7325,7 +7325,7 @@ body {
     margin-left: auto;
     margin-right: auto; }
 
-/* Three different background images */
+/* Four different background images */
 #background_landing {
   background-image: url("../images/autumn_road_w640.jpg");
   position: absolute;
@@ -7423,6 +7423,20 @@ body {
     background-position: center; }
   #background_nackademin {
     background-image: url("../images/nackademin_w1400.jpg");
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center; } }
+
+@media only screen and (min-width: 1125px) {
+  #background_portfolio_lg {
+    background-image: url("../images/autumn_w2400.jpg");
     position: absolute;
     right: 0;
     top: 0;

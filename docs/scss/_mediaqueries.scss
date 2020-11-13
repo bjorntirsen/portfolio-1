@@ -39,6 +39,13 @@
     }
 }
 
+@media only screen and (min-width: 1125px) {
+    #background_portfolio_lg {
+        background-image: url("../images/autumn_w2400.jpg");
+        @include background;
+    }
+}
+
 @media only screen and (min-width: 1401px) {
     #background_landing {
         background-image: url("../images/autumn_road_w2057.jpg");
