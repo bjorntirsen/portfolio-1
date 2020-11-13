@@ -7365,7 +7365,7 @@ html {
 
 @media (min-width: 768px) {
   html {
-    font-size: 1.1rem; }
+    font-size: 1.05rem; }
   #p_upcoming {
     font-size: 1.4rem; } }
 
@@ -7493,6 +7493,11 @@ html {
     #footer > section section {
       display: flex;
       flex-direction: row; } }
+
+/* Special for ul of Nackademin page */
+@media only screen and (min-width: 751px) and (max-width: 920px) {
+  #grid_container ul {
+    padding-left: 1rem; } }
 
 /* Over 1080px */
 @media only screen and (min-width: 1081px) and (max-width: 1499px) {
