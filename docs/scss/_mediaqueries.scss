@@ -34,19 +34,6 @@ html {
     }
 }
 
-
-/* Then one to make landing layout nicer on ipad landscape */
-
-@media (orientation: landscape) and (min-height: 760px) {
-    #landing_main {
-        max-height: 80vh;
-        img {
-            max-width: 45vh;
-        }
-    }
-}
-
-
 /* First responsive background images */
 
 @media only screen and (min-width: 640px) and (max-width: 1400px) {

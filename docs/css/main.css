@@ -7232,6 +7232,9 @@ body {
   background-color: rgba(215, 191, 142, 0.85); }
 
 /* Styling based on ID */
+#profile_img {
+  max-width: 50%; }
+
 #wrapper_upcoming {
   min-height: 100vh; }
   #wrapper_upcoming div#outer-tile {
@@ -7399,13 +7402,6 @@ html {
     font-size: 1.15rem; }
   #p_upcoming {
     font-size: 1.6rem; } }
-
-/* Then one to make landing layout nicer on ipad landscape */
-@media (orientation: landscape) and (min-height: 760px) {
-  #landing_main {
-    max-height: 80vh; }
-    #landing_main img {
-      max-width: 45vh; } }
 
 /* First responsive background images */
 @media only screen and (min-width: 640px) and (max-width: 1400px) {
