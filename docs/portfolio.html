@@ -88,8 +88,8 @@
                                 <source srcset="images/portfolio_w1024.png" media="(min-width: 501px)" />
                                 <img id="img_main" src="images/portfolio_w500.png" class="card-img-top  border border-primary" alt="Screenshot of the portfolio page.">
                             </picture>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal">Techniques Used</button>
-                            <a class="btn btn-secondary" href="https://github.com/bjorntirsen/bjorntirsen.github.io" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
+                            <button type="button" class="btn btn-primary m-1" data-toggle="modal" data-target="#portfolioModal">Techniques Used</button>
+                            <a class="btn btn-secondary m-1" href="https://github.com/bjorntirsen/bjorntirsen.github.io" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
                         </article>
                     </div>
                 </section>
@@ -109,8 +109,8 @@
                                 <img src="images/event_w640.png" class="card-img-top  border border-primary" alt="Screenshot of the Event site.">
                             </picture></a>
                             <a class="btn btn-primary m-1" href="https://bjorntirsen.github.io/event_project/" role="button">Visit Site</a>
-                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#eventModal">Techniques Used</button>
-                            <a class="btn btn-secondary" href="https://github.com/bjorntirsen/event_project" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
+                            <button type="button" class="btn btn-secondary m-1" data-toggle="modal" data-target="#eventModal">Techniques Used</button>
+                            <a class="btn btn-secondary m-1" href="https://github.com/bjorntirsen/event_project" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
                         </article>
                     </div>
                 </div>
@@ -129,8 +129,9 @@
                                 <source srcset="images/quiz_w1323.png" media="(min-width: 641px)" />
                                 <img src="images/quiz_w640.png" class="card-img-top  border border-primary" alt="Screenshot of the Quiz site.">
                             </picture></a>
-                            <button type="button" class="btn btn-primary m-1">Techniques Used</button>
-                            <a class="btn btn-secondary m-1" href="https://bjorntirsen.github.io/quiz_project/"role="button">Visit Site</a>
+                            <a class="btn btn-primary m-1" href="https://bjorntirsen.github.io/quiz_project/" role="button">Visit Site</a>
+                            <button type="button" class="btn btn-secondary m-1" data-toggle="modal" data-target="#quizModal">Techniques Used</button>
+                            <a class="btn btn-secondary m-1" href="https://github.com/bjorntirsen/quiz_project" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
                         </article>
                     </div>
                 </div>
@@ -139,7 +140,7 @@
                     <div class="card">
                         <header class="card-header">
                             <a class="link-unstyled" href="https://bjorntirsen.github.io/yatzy_project/"><div class="text-center">September 24, 2020</div>
-                            <h2 class="card-title text-uppercase font-weight-bold text-center">Yatzy game</h2>
+                            <h2 class="card-title text-uppercase font-weight-bold text-center">Yahtzee game</h2>
                             <h3 class="card-subtitle text-uppercase font-weight-bold text-center">
                                 Play the classic dice game on the web</h3></a>
                         </header>
@@ -149,8 +150,9 @@
                                 <source srcset="images/yatzy_w1179.png" media="(min-width: 641px)" />
                                 <img src="images/yatzy_w640.png" class="card-img-top" alt="Screenshot of the Yatzy site.">
                             </picture></a>
-                            <button type="button" class="btn btn-primary m-1">Techniques Used</button>
-                            <a class="btn btn-secondary m-1" href="https://bjorntirsen.github.io/yatzy_project/" role="button">Visit Site</a>
+                            <a class="btn btn-primary m-1" href="https://bjorntirsen.github.io/yatzy_project/" role="button">Visit Site</a>
+                            <button type="button" class="btn btn-secondary m-1" data-toggle="modal" data-target="#yahtzeeModal">Techniques Used</button>
+                            <a class="btn btn-secondary m-1" href="https://github.com/bjorntirsen/yatzy_project" role="button"><i class="fab fa-github"></i><span> GitHub Page</span></a>
                         </article>
                     </div>
                 </div>
@@ -195,6 +197,10 @@
                     <p class="text-center">With this site: I'm using media queries and responsive images for the first time to make it responsive. Check out the layout on different devices!</p>
                     <i class="fab fa-font-awesome-flag fa-3x"></i>
                     <p class="text-center">Of course, I also had to use some Font Awesome icons.</p>
+                    <p class="text-center">I didn't use any JS on this project other than Bootstraps built-in JS.</p>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -208,20 +214,83 @@
                     <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body d-flex flex-column align-items-center">
-                    <i class="fab fa-bootstrap fa-3x"></i>
-                    <p class="text-center">I started the site by using Bootstrap 5 Alpha and customised the classes a bit as well as adding my own colour palette. As you can see it's autumn themed.</p>
+                    <i class="fas fa-laptop-code fa-3x m-1"></i>
+                    <p class="text-center">For this group project we were aksed to create functinoality for "CRUDing" events to/from Local Storage (LS). We opted for translating all JS event-objects into JSON and saving them as one JSON object in LS each time any changes were made.</p>
+                    <p class="text-center">If you load the page without any events already in LS, our JS will create five "default events" and save in LS.</p>
                     <div class="d-flex align-items-center">
-                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <i class="fab fa-html5 fa-3x m-1"></i>
                         <i class="fas fa-plus fa-lg"></i>
-                        <i class="fab fa-html5 fa-3x"></i>
+                        <i class="fab fa-css3-alt fa-3x m-1"></i>
+                        <i class="fas fa-plus fa-lg"></i>
+                        <i class="fab fa-js-square fa-3x m-1"></i>
                         <i class="fas fa-equals fa-lg"></i>
-                        <i class="fas fa-heart fa-3x"></i>
+                        <i class="fas fa-heart fa-3x m-1"></i>
                     </div>
-                    <p class="text-center">But because the project required us to show we can use grid and flexbox I used that for the main layout of the page instead of bootstraps classes.</p>
-                    <i class="fas fa-mobile fa-3x"></i>
-                    <p class="text-center">With this site: I'm using media queries and responsive images for the first time to make it responsive. Check out the layout on different devices!</p>
-                    <i class="fab fa-font-awesome-flag fa-3x"></i>
-                    <p class="text-center">Of course, I also had to use some Font Awesome icons.</p>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quiz site -->
+    <div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="quizModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase font-weight-bold" id="quizModalLabel">JavaScript Quiz - Techniques used</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column align-items-center">
+                    <i class="fas fa-network-wired fa-3x m-1"></i>
+                    <p class="text-center">We were asked to make a quiz web app by fetching questions from a REST API.</p>
+                    <p class="text-center">This was interesting, cause I had never used an API before and also never used async JavaScript.</p>
+                    <p class="text-center">I chose to do this by making two HTML pages where the first is actually a form for choosing how many questions you want. The second HTML page is kind of a SPA.</p>
+                    <i class="fas fa-spinner fa-3x m-1"></i>
+                    <p class="text-center">If you pay attention, you might notice that there is a "fetching questions" text displayed for a fraction of a second before the "start quiz" button appears.</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fab fa-html5 fa-3x m-1"></i>
+                        <i class="fas fa-plus fa-lg"></i>
+                        <i class="fab fa-css3-alt fa-3x m-1"></i>
+                        <i class="fas fa-plus fa-lg"></i>
+                        <i class="fab fa-js-square fa-3x m-1"></i>
+                        <i class="fas fa-equals fa-lg"></i>
+                        <i class="fas fa-heart fa-3x m-1"></i>
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Yahtzee site -->
+    <div class="modal fade" id="yahtzeeModal" tabindex="-1" aria-labelledby="yahtzeeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase font-weight-bold" id="yahtzeeModalLabel">Yahtzee - Techniques used</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column align-items-center">
+                    <i class="fab fa-js-square fa-3x m-1"></i>
+                    <p class="text-center">For our first school project we were asked to make a Yahtzee game from scratch using JavaScript.</p>
+                    <p class="text-center">We were introduced to DOM manipulation, object-oriented coding as well as basic HTML and CSS during our development of the site.</p>
+                    <i class="fas fa-dice fa-3x m-1"></i>
+                    <p class="text-center">Though we wanted to do more with this site, we didn't have time to complete the full functinoality we had intended and opted for a very simple final product.</p>
+                    <p class="text-center">Actually not bad for four guys completely new to web development to thow together in two weeks!</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fab fa-html5 fa-3x m-1"></i>
+                        <i class="fas fa-plus fa-lg"></i>
+                        <i class="fab fa-css3-alt fa-3x m-1"></i>
+                        <i class="fas fa-plus fa-lg"></i>
+                        <i class="fab fa-js-square fa-3x m-1"></i>
+                        <i class="fas fa-equals fa-lg"></i>
+                        <i class="fas fa-heart fa-3x m-1"></i>
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
