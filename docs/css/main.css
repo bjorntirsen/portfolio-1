@@ -7233,7 +7233,7 @@ body {
 
 /* Styling based on ID */
 #profile_img {
-  max-width: 50%; }
+  max-width: 35vh; }
 
 #wrapper_upcoming {
   min-height: 100vh; }
@@ -7382,24 +7382,15 @@ body {
 /* Importing Media Queries */
 /* Media Queries */
 /* Fist some settings to make fonts a bit responsive */
-html {
-  font-size: 1rem; }
-
 @media (min-width: 576px) {
-  html {
-    font-size: 1.05rem; }
   #p_upcoming {
     font-size: 1.2rem; } }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 1.05rem; }
   #p_upcoming {
     font-size: 1.4rem; } }
 
 @media (min-width: 992px) {
-  html {
-    font-size: 1.15rem; }
   #p_upcoming {
     font-size: 1.6rem; } }
 
