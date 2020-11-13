@@ -139,6 +139,11 @@ body {
     @include block_center;
 }
 
+#img_main2 {
+    max-width: 850px;
+    @include block_center;
+}
+
 #content1 {
     grid-area: content1;
 }
