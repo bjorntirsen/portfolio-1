@@ -7338,6 +7338,19 @@ body {
   background-repeat: no-repeat;
   background-position: center; }
 
+#background_portfolio_lg {
+  background-image: url("../images/autumn_w2400.jpg");
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 #background_nackademin {
   background-image: url("../images/nackademin_w640.jpg");
   position: absolute;

@@ -186,6 +186,11 @@ body {
     @include background;
 }
 
+#background_portfolio_lg {
+    background-image: url("../images/autumn_w2400.jpg");
+    @include background;
+}
+
 
 #background_nackademin {
     background-image: url("../images/nackademin_w640.jpg");
