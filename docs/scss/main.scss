@@ -196,8 +196,22 @@ body {
 }
 
 #background_portfolio_lg {
-    background-image: url("../images/autumn_w1125.jpg");
+    background-image: url("../images/autumn_w375.jpg");
     @include background;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    #background_portfolio_lg {
+        background-image: url("../images/autumn_w563.jpg");
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),
+(min-resolution: 463dpi) {
+    #background_portfolio_lg {
+        background-image: url("../images/autumn_w1125.jpg");
+    }
 }
 
 #background_nackademin {
