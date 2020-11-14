@@ -7252,6 +7252,8 @@ body {
   bottom: 0;
   grid-template-columns: 1fr;
   grid-template-areas: "main" "content1" "footer"; }
+  #grid_container_about #main, #grid_container_about #content1, #grid_container_about #footer {
+    max-width: 100%; }
 
 #grid_container_upcoming {
   overflow: hidden;
