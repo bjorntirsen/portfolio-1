@@ -23,13 +23,15 @@
   },
   "homepage": "https://github.com/bjorntirsen/bjorntirsen.github.io#readme",
   "devDependencies": {
+    "@popperjs/core": "^2.6.0",
+    "axios": "^0.21.1",
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
-    "gulp-purgecss": "^3.0.0",
+    "gulp-purgecss": "^3.1.3",
     "gulp-sass": "^4.1.0",
-    "purgecss": "^3.0.0"
+    "purgecss": "^3.1.3"
   },
   "dependencies": {
-    "bootstrap": "^5.0.0-alpha2"
+    "bootstrap": "^5.0.0-beta1"
   }
 }
