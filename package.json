@@ -4,7 +4,8 @@
   "description": "My first portfolio page.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,9 @@
     "gulp": "^4.0.2",
     "gulp-purgecss": "^3.1.3",
     "gulp-sass": "^4.1.0",
-    "purgecss": "^3.1.3"
+    "parcel-bundler": "^1.12.5",
+    "purgecss": "^3.1.3",
+    "sass": "^1.32.8"
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta1"
