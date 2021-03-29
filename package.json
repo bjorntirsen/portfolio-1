@@ -4,7 +4,7 @@
   "description": "My first portfolio page.",
   "main": "main.js",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/index.html -d docs",
     "build": "parcel build src/index.html -d docs"
   },
   "repository": {
