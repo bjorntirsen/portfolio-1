@@ -1,32 +1,9 @@
 /* This is the main SCSS that all pages use */
-/* Importing my other SCSS */
+/* Custom variables */
 /* These are my custom variables */
 /* Color palette */
 /* Fonts */
 /* Max widths for the bootstrap class container */
-/* Mixins */
-/* Animations */
-.zoom {
-  transform: scale(1.1);
-  animation: zoom 2s;
-  animation-fill-mode: forwards; }
-
-@keyframes zoom {
-  from {
-    transform: scale(1); }
-  to {
-    transform: scale(1.1); } }
-
-.fade-in {
-  animation: fadein 1s;
-  animation-fill-mode: forwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 /* Importing Bootstrap 5 SCSS */
 /*!
  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
@@ -7430,6 +7407,30 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/* Importing my other SCSS */
+/* Mixins */
+/* Animations */
+.zoom {
+  transform: scale(1.1);
+  animation: zoom 2s;
+  animation-fill-mode: forwards; }
+
+@keyframes zoom {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.1); } }
+
+.fade-in {
+  animation: fadein 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 /* Styling based on element */
 body {
   background-color: black;
@@ -7484,17 +7485,21 @@ body {
   #wrapper_upcoming div#outer-tile {
     min-height: 100vh; }
 
+#grid_container, #grid_container_nackademin, #grid_container_about, #grid_container_upcoming {
+  display: grid;
+  grid-template-columns: 1fr; }
+
 #grid_container {
   height: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
+  grid-template-areas: 'aside' 'main' 'project4' 'project3' 'project2' 'project1' 'footer'; }
+
+#grid_container_nackademin {
+  height: 100%;
   grid-template-areas: 'aside' 'main' 'content1' 'content2' 'content3' 'footer'; }
 
 #grid_container_about {
   height: 100%;
-  display: grid;
   bottom: 0;
-  grid-template-columns: 1fr;
   grid-template-areas: 'main' 'content1' 'footer'; }
   #grid_container_about #main,
   #grid_container_about #content1,
@@ -7507,10 +7512,8 @@ body {
   position: relative;
   padding-top: 92px !important;
   height: 100vh;
-  display: grid;
   position: relative;
   top: 0;
-  grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: 'navi' 'main' 'footer'; }
 
@@ -7757,13 +7760,16 @@ body {
 @media only screen and (min-width: 751px) and (max-width: 1080px) {
   #grid_container_about {
     grid-template-columns: 0.5fr 3fr 0.5fr;
-    grid-template-areas: ". main ." ". content1 ." "footer footer footer"; }
+    grid-template-areas: '. main .' '. content1 .' 'footer footer footer'; }
   #grid_container {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "aside aside aside" "main main main" "content1 content2 content3" "footer footer footer"; }
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'aside aside' 'main main' 'project4 project3' 'project2 project1' 'footer footer'; }
+  #grid_container_nackademin {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'aside aside' 'main main' 'content1 content2' 'content3 .' 'footer footer'; }
   #grid_container_upcoming {
     grid-template-columns: 0.5fr 3fr 0.5fr;
-    grid-template-areas: ". navi ." ". main ." "footer footer footer"; }
+    grid-template-areas: '. navi .' '. main .' 'footer footer footer'; }
   #aside article {
     flex-direction: row;
     align-items: center; }
@@ -7779,44 +7785,39 @@ body {
 
 /* Special for ul of Nackademin page */
 @media only screen and (min-width: 751px) and (max-width: 920px) {
-  #grid_container ul {
+  #grid_container_nackademin ul {
     padding-left: 1rem; } }
 
 /* Over 1080px */
-@media only screen and (min-width: 1081px) and (max-width: 1499px) {
+@media only screen and (min-width: 1081px) {
   #grid_container_about {
     grid-template-columns: 0.5fr 3fr 0.5fr;
-    grid-template-areas: ". main ." ". content1 ." "footer footer footer"; }
+    grid-template-rows: 0.32fr 1fr 0.1fr;
+    grid-template-areas: '. main .' '. content1 .' 'footer footer footer'; }
   #grid_container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "aside main main main" "aside content1 content2 content3" "footer footer footer footer"; }
+    margin: 0 auto;
+    max-width: 1600px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: 1fr 0.6fr 0.6fr 0.12fr;
+    grid-template-areas: 'aside main main main' 'aside project4 project3 project2' 'aside project1 . .' 'footer footer footer footer'; }
+  #grid_container_nackademin {
+    margin: 0 auto;
+    max-width: 1600px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: 1fr 0.6fr 0.12fr;
+    grid-template-areas: 'aside main main main' '. content1 content2 content3' 'footer footer footer footer'; }
   #grid_container_upcoming {
     grid-template-columns: 0.5fr 3fr 0.5fr;
-    grid-template-areas: ". navi ." ". main ." "footer footer footer"; }
+    grid-template-areas: '. navi .' '. main .' 'footer footer footer'; }
   #aside article {
     flex-direction: column;
     align-items: center; }
   #aside img {
     width: 50%; }
-  #footer > section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-    #footer > section section {
-      display: flex;
-      flex-direction: row; } }
-
-/* Over 1500px */
-@media only screen and (min-width: 1500px) {
-  #grid_container_about {
-    grid-template-columns: 1.5fr 3fr 1.5fr;
-    grid-template-areas: ". main ." ". content1 ." "footer footer footer"; }
-  #grid_container {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "aside main main main ." "aside content1 content2 content3 ." "footer footer footer footer footer"; }
-  #grid_container_upcoming {
-    grid-template-columns: 0.5fr 3fr 0.5fr;
-    grid-template-areas: ". navi ." ". main ." "footer footer footer"; }
+  #footer {
+    position: absolute;
+    left: 0;
+    right: 0; }
   #footer > section {
     display: flex;
     flex-direction: row;

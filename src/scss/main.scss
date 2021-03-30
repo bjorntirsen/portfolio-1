@@ -1,14 +1,15 @@
 /* This is the main SCSS that all pages use */
 
-/* Importing my other SCSS */
-
+/* Custom variables */
 @import 'variables';
-@import 'mixins';
-@import 'animations';
 
 /* Importing Bootstrap 5 SCSS */
 
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+/* Importing my other SCSS */
+@import 'mixins';
+@import 'animations';
 
 /* Styling based on element */
 
@@ -69,7 +70,7 @@ body {
 }
 
 .emoji {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* Styling based on ID */
@@ -85,18 +86,24 @@ body {
   }
 }
 
-#grid_container {
-  height: 100%;
+#grid_container, #grid_container_nackademin, #grid_container_about, #grid_container_upcoming {
   display: grid;
   grid-template-columns: 1fr;
+}
+
+#grid_container {
+  height: 100%;
+  grid-template-areas: 'aside' 'main' 'project4' 'project3' 'project2' 'project1' 'footer';
+}
+
+#grid_container_nackademin {
+  height: 100%;
   grid-template-areas: 'aside' 'main' 'content1' 'content2' 'content3' 'footer';
 }
 
 #grid_container_about {
   height: 100%;
-  display: grid;
   bottom: 0;
-  grid-template-columns: 1fr;
   grid-template-areas: 'main' 'content1' 'footer';
   #main,
   #content1,
@@ -111,10 +118,8 @@ body {
   position: relative;
   padding-top: 92px !important;
   height: 100vh;
-  display: grid;
   position: relative;
   top: 0;
-  grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: 'navi' 'main' 'footer';
 }
